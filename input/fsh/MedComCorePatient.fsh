@@ -1,7 +1,7 @@
 Profile: MedComCorePatient
 Parent: http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
 Id: medcom-core-patient
-Description: "Patient/citizen resource to use as subject in MedCom communication"
+Description: "Patient/citizen resource to use as subject in MedCom communication."
 * identifier[cpr] ^short = "Unique identification number for all citizens in Denmark"
 * identifier[cpr] MS
 * name[official] 1.. MS
