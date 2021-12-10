@@ -2,29 +2,14 @@
 
 ### Introduction
 
-This implementation guide is provided by MedCom to describe the use of FHIR &reg;&copy; in message based exchange of data in Danish healthcare.
+This Implementation Guide (G) is provided by MedCom to describe the FHIR &reg;&copy MedComCore profiles. This IG represents the base expectation when describing a Patient, Encounter or Organization when exchaning information in a setting of Danish context.
+As the MedComCore profiles only specify the base expectations, they are in general made open for additional content. This is chosen to allow further profiling for specific purposes defined by the communicating parties.
 
-The implementation guide contains profiles in three areas
+The purpose of this IG is to :
+* provide guidance on MedComCore profiles, code system, value sets and naming systems in a Danish context.
+* define extensions that are necessary for local use covering needed Danish concepts
 
-* A general messaging model to be used by all defined MedCom FHIR messages
-* A hospital notification message for informing other healthcare parties about hospitalization of a patient
-* A care communication message for exchange of various information between health organizations
-
-The profiles are in general made open for additional content to allow further profiling for specific purposes defined by the communicating parties.
-
-__Note:__ Be aware that entries in a message in general are unordered. Recipients of a message can therefore not assume any particular sequences of elements.
-
-__Note:__ We intend to split the implementation guide into three separate packages in a future version.
-
-For description regarding the transportation layer please refer to this guide:
-
-English:
-
-* [MedCom FHIR-message and enclosing envelope](Enclosing_envelope_for_FHIR-messages.html)
-
-Danish:
-
-* [MedComs FHIR-meddelelser og forsendelseskuvert](Forsendelseskuvert_for_FHIR-meddelelser.html)
+The MedComCore profiles only constitues a part of a message. To send a complete message, profiles from the MedComMessaging and e.g. MedComCareCommunication og MedComHospitalNotification. The general messaging model is further described in MedComMessaging 
 
 
 ### General references

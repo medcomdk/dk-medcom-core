@@ -1,5 +1,5 @@
 id: dk.fhir.ig.dk-medcom-core
-canonical: http://medcomfhir.dk/fhir/core
+canonical: http://medcomfhir.dk/fhir/dk-medcom-core
 name: MedComCore
 title: "DK MedCom Core"
 description: The DK MedCom Core IG
