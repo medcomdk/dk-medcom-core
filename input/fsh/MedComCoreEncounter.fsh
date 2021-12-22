@@ -6,6 +6,8 @@ Description: "An interaction between a patient/citizen and healthcare provider(s
 * status MS
 * class MS
 * class from MedComCoreEncounterClass
+* episodeOfCare MS
+* episodeOfCare.identifier MS
 * episodeOfCare ^slicing.discriminator.type = #value
 * episodeOfCare ^slicing.discriminator.path = "identifier.system"
 * episodeOfCare ^slicing.rules = #open
@@ -20,6 +22,10 @@ Description: "An interaction between a patient/citizen and healthcare provider(s
 * account ..0
 * serviceProvider only Reference(MedComCoreOrganization)
 * serviceProvider ^type.aggregation = #bundled
+
+Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
+Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode
+
 
 Instance: 6220b42d-c4fd-4c77-bae7-78e7d890dc8d
 InstanceOf: MedComCoreEncounter
