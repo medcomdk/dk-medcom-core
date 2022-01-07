@@ -16,9 +16,6 @@ This IG describes the following MedComCore profiles:
 * MedComCorePractitioner
 * MedComCorePractitionerRole
 
-### General references
-
-All referenced resources within the message are contained in the entry list.
 
 #### Content
 
