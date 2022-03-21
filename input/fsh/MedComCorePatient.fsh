@@ -10,13 +10,11 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * name[official].given ^definition = "Shall be present if the official given name of the patient is known, danish \"fornavn\" "
 * name[official].family MS
 * name[official].family ^definition = "Shall always be present, danish \"efternavn\" "
-* telecom MS
 * telecom ^definition = "Shall contain value, system and use if these information are known."
 * telecom only MedComMessagingContactPoint
 * deceased[x] MS
 * deceased[x] ^definition = "Shall contain information if the patient is deceased and it is relevant in the given context"
 * deceased[x] ^short = "Shall only be sent if the patient is deceased or the status change from deceased to non-deceased"
-* address MS
 * address ^definition = "Shall contain all known, relevant addresses of the patient"
 * address.line MS
 * address.line ^definition = "Shall contain the known information about the street name, number etc. to provide an exact address"
@@ -27,7 +25,7 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * managingOrganization only Reference(MedComCoreOrganization)
 * managingOrganization ^type.aggregation = #bundled
 * managingOrganization ^definition = "Organization that is the custodian of the patient record. This can e.g. be the sender of a message or responsable for the patients treatment. One of these organizations will always be included in the bundle, why this element is not mandatory to include."
-* identifier and name and telecom and address and managingOrganization SU
+* identifier and name and telecom and address and managingOrganization MS SU
 
 
 Instance: 733cef33-3626-422b-955d-d506aaa65fe1
