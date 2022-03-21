@@ -4,7 +4,7 @@ Id: medcom-core-organization
 Description: "A formally recognized organizations within danish healthcare, registered with a SOR identifier issued by The Danish Health Data Authority"
 * identifier[SOR-ID] ^short = "Sundhedsvæsenets Organisationsregister (SOR) identifier" 
 * identifier[SOR-ID] 1..
-* identifier[SOR-ID] MS
+* identifier[SOR-ID] MS SU
 * name MS
 * name ^definition = "Name of the organaization. Shall be present if known by the sender."
 

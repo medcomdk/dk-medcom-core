@@ -22,6 +22,7 @@ Description: "An interaction between a patient/citizen and healthcare provider(s
 * account ..0
 * serviceProvider only Reference(MedComCoreOrganization)
 * serviceProvider ^type.aggregation = #bundled
+* serviceProvider SU
 
 Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
 Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode
