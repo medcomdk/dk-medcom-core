@@ -1,7 +1,7 @@
 ### Scope and usage 
 
-This profile describes the MedComCorePractitionerRole. The MedComCorePractitionerRole shall be used as PractitionerRole resource in all MedCom FHIR Messages.
-In a practitioner is referenced from MedComCorePractitionerRole is shall be a MedComCorePractitioner.
+This profile describes the MedComCorePractitionerRole and is used to describe a practitioner's role in a MedCom standard.
+If a practitioner is referenced from MedComCorePractitionerRole it shall be a MedComCorePractitioner.
 
 __Note:__: Despite this profile is called MedComCorePractitionerRole, it covers information about all healthcare professionals in a Danish context. 
 

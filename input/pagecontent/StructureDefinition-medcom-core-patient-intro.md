@@ -1,7 +1,7 @@
 ### Scope and usage 
 
-This profile describes the MedComCorePatient. The MedComCorePatient shall be used as Patient resource in all MedCom FHIR Messages.
-The MedComCorePatient is inherited from the DkCorePatient profile defined by the national HL7 affiliate, called HL7 Denmark. When using the MedComCorePatient there shall be an identifier present where a CPR-identifier is preferred, and the patients official family name ('efternavn' in Danish) shall be present. 
+This profile describes the MedComCorePatient and is used to describe a patient or citizen in a MedCom standard. 
+The MedComCorePatient is inherited from the DkCorePatient profile defined by HL7 Denmark. When using the MedComCorePatient it shall include an identifier where a CPR-number is highly preferred when exchanging patient related information. The patients official family name ('efternavn' in Danish) shall also be present. 
 
 __Note:__: Despite this profile is called MedComCorePatient, it both covers information about a citizen and patient in a Danish context. 
 

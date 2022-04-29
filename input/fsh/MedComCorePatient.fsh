@@ -7,9 +7,9 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * name 1..
 * name[official] 1.. MS
 * name[official].given MS
-* name[official].given ^definition = "Shall be present if the official given name of the patient is known, danish \"fornavn\" "
+* name[official].given ^definition = "Shall be present if the official given name of the patient is known, danish \"fornavn\". "
 * name[official].family MS
-* name[official].family ^definition = "Shall always be present, danish \"efternavn\" "
+* name[official].family ^definition = "Shall always be present, danish \"efternavn\". "
 * telecom ^definition = "Shall contain value, system and use if these information are known."
 * telecom only MedComMessagingContactPoint
 * deceased[x] MS
@@ -30,34 +30,28 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 
 Instance: 733cef33-3626-422b-955d-d506aaa65fe1
 InstanceOf: MedComCorePatient
-Title: "Eric Flame"
-Description: "Patient with a managing organization. Valid only if used in a bundle (message)."
+Title: "Bruno Test Elmer"
+Description: "Patient described with minimal information. Valid only if used in a Bundle."
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
-* identifier[cpr].value = "0102030405"
+* identifier[cpr].value = "2509479989"
 * name[official].use = #official
-* name[official].given = "Eric"
-* name[official].family = "Flame"
-* telecom.system = #phone
-* telecom.value = "12345678"
-* telecom.use = #mobile
-* address.line = "Flammesvinget 1"
-* address.city = "Aarhus"
-* address.postalCode = "8000 C"
-* managingOrganization = Reference(12ee0dde-a672-462f-820d-5efe832d73c9)
+* name[official].family = "Elmer"
+
 
 Instance: 382fb8a3-6725-41e2-a615-2b1cfcfe9931
 InstanceOf: MedComCorePatient
-Title: "Erik Clausen"
-Description: "Patient deceased with a managing organization. Valid only if used in a bundle (message)."
+Title: "Cæcar Test Østergård"
+Description: "Deceased patient described with maximum information. Valid only if used in a Bundle."
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
-* identifier[cpr].value = "0101010141"
+* identifier[cpr].value = "2311143995"
 * name[official].use = #official
-* name[official].given = "Erik"
-* name[official].family = "Clausen"
+* name[official].given[0] = "Cæcar"
+* name[official].given[1] = "Test"
+* name[official].family = "Østergård"
 * telecom.system = #phone
 * telecom.value = "24533421"
 * telecom.use = #home
-* address.line = "Forskerparken 10"
+* address.line = "Testhjemmet 1"
 * address.city = "Odense M"
 * address.postalCode = "5230"
 * managingOrganization = Reference(bca68510-fe3b-4161-aba0-908a693eb54f)
@@ -65,18 +59,21 @@ Description: "Patient deceased with a managing organization. Valid only if used 
 
 Instance: 5b72c625-0570-4111-b272-f0351344f8b6
 InstanceOf: MedComCorePatient
-Title: "Erik Clausen"
-Description: "Patient not deceased with a managing organization. Valid only if used in a bundle (message)."
+Title: "Brita Test Berggren"
+Description: "Patient described with maximum information. Valid only if used in a Bundle."
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
-* identifier[cpr].value = "0101010141"
+* identifier[cpr].value = "1509819996"
 * name[official].use = #official
-* name[official].given = "Erik"
-* name[official].family = "Clausen"
-* telecom.system = #phone
-* telecom.value = "24533421"
-* telecom.use = #work
-* address.line = "Forskerparken 10"
-* address.city = "Odense M"
-* address.postalCode = "5230"
+* name[official].given = "Brita Test"
+* name[official].family = "Berggren"
+* telecom[0].system = #phone
+* telecom[0].value = "12457812"
+* telecom[0].use = #work
+* telecom[1].system = #phone
+* telecom[1].value = "98879887"
+* telecom[1].use = #home
+* address.line = "Testpark Allé 48"
+* address.city = "Hillerød"
+* address.postalCode = "3400"
 * managingOrganization = Reference(bca68510-fe3b-4161-aba0-908a693eb54f)
 * deceasedBoolean = false

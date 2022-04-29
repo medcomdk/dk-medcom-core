@@ -24,8 +24,6 @@ Description: "An interaction between a patient/citizen and healthcare provider(s
 * serviceProvider ^type.aggregation = #bundled
 * serviceProvider MS
 
-Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
-Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode
 
 
 Instance: 6220b42d-c4fd-4c77-bae7-78e7d890dc8d
