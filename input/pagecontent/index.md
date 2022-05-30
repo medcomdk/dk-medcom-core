@@ -31,8 +31,8 @@ This document presents concepts for MedCom standards defined via FHIR processabl
 
 FHIR profiles are managed under MedCom:
 
-* [Source](https://github.com/hl7dk/dk-medcom-core)
-* [Wiki](https://github.com/hl7dk/dk-medcom-core)
+* [Source](https://github.com/medcomdk/dk-medcom-core)
+* [Wiki](https://github.com/medcomdk/dk-medcom-core)
 
 ### Other
 
