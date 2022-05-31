@@ -1,0 +1,7 @@
+title: "MedCom Hospital Notification in FHIR"
+description: "This page includes content about HospitalNotification (DA: Sygehusadvis)"
+logo: medcom+fhir-logo.png
+description: "MedCom standard based on HL7 FHIR"
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
