@@ -6,7 +6,8 @@ This page represents the core profiles (DK: Kerneprofiler) used in MedComs FHIR 
 
 **Table of Content**
 - [1 Documentation](#1-documentation)
-  * [Implementation Guide](#implementation-guide)
+  * [Technical Specification](#technical-specification)
+    + [Implementation Guide](#implementation-guide)
     + [Introduction to the Technical Specifications](#introduction-to-the-technical-specifications)
 - [2 Release Notes](#2-release-notes)
 - [3 Support or Contact](#3-support-or-contact)
@@ -15,13 +16,17 @@ This page represents the core profiles (DK: Kerneprofiler) used in MedComs FHIR 
 
 In the documentation below you will find the necessary content to understand the technical specifications for the standard. 
 
-### Implementation Guide
+### Technical Specification
+
+#### Implementation Guide
 
 The IG holds the technical specifications and examples of the MedCom Core profiles. It represents the base expectations when describing a Patient, Encounter, Practitioner or Organization in a MedCom standard. In some standards there are more specific or other requirements for a MedCom Core profile, why the MedComCore profile will be inherited to the given standard inherit the MedComCoreEncounter. 
 
 <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">Tab here to see the IG for MedCom Core.</a>
 
 #### Introduction to the Technical Specifications
+
+The purpose of this section is to give a brief and overall introduction to the content of the core profiles. It describes the most basic content and cannot stand alone during implementation.
 
 [Overview of the content of the standard.](assets/documents/Intro-Technical-Spec-ENG.md)
 
