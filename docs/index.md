@@ -26,6 +26,7 @@ In the documentation below you will find the necessary content to understand the
 
 ### Technical Specification
 The technical specifications for MedCom Core profiles are defined in an IG. As mentioned previously does the MedCom Core profiles not alone compose a standard but are used to describe central information in MedComs standards. Here you can find the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core IG</a>. 
+
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefor has MedCom developed a webpage describing the content of the core IG. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. 
 [Overview of the content of the standard.](assets/documents/Intro-Technical-Spec-ENG.md)
 
@@ -33,7 +34,3 @@ IGs might be difficult for people with little or no knowledge about FHIR and how
 
 [Updates in the latest release.](assets/documents/ReleaseNote-ENG.md)
 
-## 3 Support or Contact
-
-[MedCom](https://www.medcom.dk/) is responsible for this page.  
-For any question regaring the standard, please contact <fhir@medcom.dk> or write in <a href="https://chat.fhir.org/#narrow/stream/315677-denmark.2Fmedcom.2FFHIRimplementationErfaGroup" target="_blank">MedComs stream on Zulip</a>.
