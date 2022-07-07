@@ -1,13 +1,7 @@
 # MedCom Core 
 
-This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedComs FHIR standards. The MedCom Core Implementation Guide (IG) includes the following profiles: 
+This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedComs FHIR standards. The MedCom Core Implementation Guide (IG) includes the following profiles:	<a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>, <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-organization.html" target="_blank">MedComCoreOrganization</a> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>,  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-practitioner.html" target="_blank">MedComCorePractitioner</a>, <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-practitionerrole.html" target="_blank">MedComCorePractitionerRole</a> 
 
-*	<a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> 
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-organization.html" target="_blank">MedComCoreOrganization</a>
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a> 
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-practitioner.html" target="_blank">MedComCorePractitioner</a>	
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-practitionerrole.html" target="_blank">MedComCorePractitionerRole</a> 
-<p>&nbsp;</p>
 These profiles describe fundamental information when exchanging information and therefore one or more profiles are included in all MedComs FHIR standard. The core profiles do not alone constitute a standard, but the profiles will be used in the standards, such as HospitalNotification or CareCommunication. Therefore, does this page only include the IG and an introduction to the content of the IG and not clinical guidelines, use cases, test protocols.
 
 <a href="https://medcomdk.github.io/MedComLandingPage/" target="_blank">Return to frontpage</a>
@@ -19,7 +13,7 @@ These profiles describe fundamental information when exchanging information and 
     + [Introduction to the Technical Specifications](#introduction-to-the-technical-specifications)
 - [2 Release Notes](#2-release-notes)
 - [3 Support or Contact](#3-support-or-contact)
-
+<p>&nbsp;</p>
 ## 1 Documentation 
 
 In the documentation below you will find the necessary content to understand the technical specifications for the standard. 
