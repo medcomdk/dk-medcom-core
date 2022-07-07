@@ -16,8 +16,6 @@ These profiles describe fundamental information when exchanging information and 
 **Table of Content**
 - [1 Documentation](#1-documentation)
   * [Technical Specification](#technical-specification)
-    + [Implementation Guide](#implementation-guide)
-    + [Introduction to the Technical Specifications](#introduction-to-the-technical-specifications)
 - [2 Release Notes](#2-release-notes)
 <p>&nbsp;</p>
 ## 1 Documentation 
