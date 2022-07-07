@@ -16,13 +16,13 @@ dependencies:
   hl7.fhir.dk.core: 
     uri: https://hl7.dk/fhir/core/1.1.0/
     version: 1.1.0
+  dk.fhir.ig.dk-medcom-terminology: current
 
 menu:
   Table of Contents: toc.html
   Home: index.html
   Profiles: profiles.html
   Extensions: extensions.html
-  Terminology: terminology.html
   Artifacts: artifacts.html
   Downloads: downloads.html
 
