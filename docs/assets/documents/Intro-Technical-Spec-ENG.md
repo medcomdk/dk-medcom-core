@@ -29,7 +29,7 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
   <tr>
     <td class="tg-ne9s">MedComCorePatient</td>
     <td class="tg-ne9s">Patient</td>
-    <td class="tg-ne9s">A citizen or patient, when a MedCom message about the person.</td>
+    <td class="tg-ne9s">Contains central information about a citizen or patient, when exchanging a information.</td>
     <td class="tg-ne9s">Identifier (CPR-number)<br>Name<br>Address<br>Telecom<br>Managing Organization<br>Deceased or not</td>
   </tr>
   <tr>
