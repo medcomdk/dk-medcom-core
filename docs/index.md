@@ -1,3 +1,5 @@
+<a href="https://medcomdk.github.io/MedComLandingPage/" target="_blank">Return to frontpage</a>
+
 # MedCom Core 
 
 This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedComs FHIR standards. The MedCom Core Implementation Guide (IG) includes the following profiles:	
@@ -9,7 +11,7 @@ This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedCo
 
 These profiles describe fundamental information when exchanging information and therefore one or more profiles are included in all MedComs FHIR standard. The core profiles do not alone constitute a standard, but the profiles will be used in the standards, such as HospitalNotification or CareCommunication. Therefore, does this page only include the IG and an introduction to the content of the IG and not clinical guidelines, use cases, test protocols.
 
-<a href="https://medcomdk.github.io/MedComLandingPage/" target="_blank">Return to frontpage</a>
+
 
 **Table of Content**
 - [1 Documentation](#1-documentation)
