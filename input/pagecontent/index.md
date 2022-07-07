@@ -25,7 +25,7 @@ This document presents concepts for MedCom standards defined via FHIR processabl
 
 * [Profiles](profiles.html) - contain the constraints to FHIR resources and datatype for use in MedCom standards.
 * [Extensions](extensions.html) - are FHIR extensions that are added for local use, covering needed concepts for MedCom standards.
-* [Terminologies](terminology.html) - are defined or referenced CodeSystem and ValueSets for the MedComCore profiles.
+* [Terminologies](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/) - are defined or referenced CodeSystem and ValueSets in MedCom Terminology IG.
 
 #### Governance
 
