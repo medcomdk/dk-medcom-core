@@ -6,6 +6,7 @@ This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedCo
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>  
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-practitioner.html" target="_blank">MedComCorePractitioner</a>
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-practitionerrole.html" target="_blank">MedComCorePractitionerRole</a> 
+
 These profiles describe fundamental information when exchanging information and therefore one or more profiles are included in all MedComs FHIR standard. The core profiles do not alone constitute a standard, but the profiles will be used in the standards, such as HospitalNotification or CareCommunication. Therefore, does this page only include the IG and an introduction to the content of the IG and not clinical guidelines, use cases, test protocols.
 
 <a href="https://medcomdk.github.io/MedComLandingPage/" target="_blank">Return to frontpage</a>
