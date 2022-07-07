@@ -13,8 +13,8 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-uaof{color:#343434;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-ne9s{color:#343434;text-align:left;vertical-align:top}
+.tg .tg-uaof{color:##2c415c;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-ne9s{color:#333333;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
