@@ -21,15 +21,19 @@ On [MedCom Terminology IG](https://build.fhir.org/ig/medcomdk/dk-medcom-terminol
 
 This IG has a dependency to [DK-core](https://hl7.dk/fhir/core/) v. 1.1.0, defined by [HL7 Denmark](https://hl7.dk/). This is currently reflected in the MedComCorePatient, MedComCoreOrganization and MedComCorePractitioner which inherit from DkCorePatient, DkCoreOrganization and DkCorePractitioner, respectively. 
 
+### Documentation
+
+[More information about MedCom Core](https://medcomdk.github.io/dk-medcom-core/) can be found here. As mentioned, MedCom Core does not alone constitute a standard, why the extra documentation is limited.
+
 ### Governance
 
 FHIR profiles are managed under MedCom: [Source code](https://github.com/medcomdk/dk-medcom-core). 
 
-[More information about MedCom FHIR standards can be found here.](https://medcomdk.github.io/MedComLandingPage/)
+A description of [governance concerning change management and versioning](https://medcomdk.github.io/MedComLandingPage/#4-change-managment-and-versioning) of MedComs FHIR artefacts, can be found on the link.
 
 #### Quality Assurance Report
 
-In the Quality Assurance report (QA-report) for this IG, there are some errors which MedCom are aware of, describes with the message: _Reference is remote which isn't supported by the specified aggregation mode(s) for the reference (bundled)_. The errors due to some references with a Bundled flag {b}, however the referenced profil is not included in a Bundle in one or more of the examples. This should not influence the implementation by vendors.
+In the Quality Assurance report (QA-report) for this IG, there is an error with the following description: *Reference is remote which isn’t supported by the specified aggregation mode(s) for the reference (bundled)*. The error occurs when creating instances of the profiles and is due to some elements having a Bundled flag {b}, however the referenced profile is not included in a Bundle in an instance, since the instance only represents a part of the entire message. This should not influence the implementation by IT-vendors.
 
 ### Contact 
 
