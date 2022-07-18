@@ -14,11 +14,12 @@ These profiles describe fundamental information when exchanging information and 
 
 
 **Table of Content**
-- [1 Documentation](#1-documentation)
+- [Documentation](#documentation)
   * [Technical Specification](#technical-specification)
-- [2 Release Notes](#2-release-notes)
+- [Release Notes](#release-notes)
 <p>&nbsp;</p>
-## 1 Documentation 
+
+## Documentation 
 
 In the documentation below you will find the necessary content to understand the technical specifications for the standard. 
 
@@ -28,7 +29,7 @@ The technical specifications for MedCom Core profiles are defined in an IG. As m
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefor has MedCom developed a webpage describing the content of the core IG. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. 
 [Overview of the content of the standard.](assets/documents/Intro-Technical-Spec-ENG.md)
 
-## 2 Release Notes
+## Release Notes
 
 [Updates in the latest release.](assets/documents/ReleaseNote-ENG.md)
 
