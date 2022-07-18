@@ -17,6 +17,7 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
 .tg .tg-i91a{border-color:inherit;color:#333333;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
+<caption style="color:#2c415c; font-wight:bold;text-align:center"> Table1: Overview of profiles in Medcom Core standard</caption>
 <thead>
   <tr>
     <th class="tg-67v1">Profile</th>
