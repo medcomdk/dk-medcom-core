@@ -22,7 +22,7 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
   <tr>
     <th class="tg-67v1">Profile</th>
     <th class="tg-67v1">Resource</th>
-    <th class="tg-67v1">Describtion</th>
+    <th class="tg-67v1">Description</th>
     <th class="tg-67v1">MustSupport elements</th>
   </tr>
 </thead>
@@ -42,7 +42,7 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
   <tr>
     <td class="tg-i91a">MedComCoreEncounter</td>
     <td class="tg-i91a">Encounter</td>
-    <td class="tg-i91a">A meeting between a healthcare professional and a patient.</td>
+    <td class="tg-i91a"> An interaction between a patient/citizen and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient/citizen.</td>
     <td class="tg-i91a">Encounter status<br>Encounter classification<br>Subject of the encounter<br>Episode of care identifier<br>Service provider organization</td>
   </tr>
   <tr>
