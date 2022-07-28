@@ -1,15 +1,6 @@
 [Return](Index.md)
 # Release Note
-
-As described in [Versioning DOC], the Implementation Guide (IG) and the textual documentation will have different versions, why there are two release notes in the following.
-
-## Implementation Guide
-
-<a href="https://github.com/medcomdk/dk-medcom-core/releases" target="_blank">Tab here to see Release Note for MedCom Core Implementation Guide.</a>
-
-## MedCom Core Introduction Page
-
-In the table below updates of the <a href="../index.md" target="_blank">MedCom Core introduction</a> can be seen. 
+The release notes in the following describes the changes made to Introduction to the Technical Content. Each subpage will have its own release note, and they can be found in the table below:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;max-width:65%;}
@@ -34,7 +25,7 @@ In the table below updates of the <a href="../index.md" target="_blank">MedCom C
     <td class="tg-ne9s">1.0.0-a.1</td>
     <td class="tg-ne9s">31-05-2022</td>
     <td class="tg-ne9s">Inital release. Presentation of MedCom Core.</td>
-    <td class="tg-ne9s">View release note for:<br> <a href="index.md">MedComCore</a> <br> <a href="Intro-Technical-Spec-ENG"> Introduction to the Technical Content</a> </td>
+    <td class="tg-ne9s">View release note for: <a href="ReleaseNote-ENG.md">MedCom Core </a> </td>
   </tr>
   <tr>
     <td class="tg-ne9s"></td>
