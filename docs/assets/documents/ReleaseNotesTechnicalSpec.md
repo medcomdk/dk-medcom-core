@@ -1,3 +1,4 @@
+[Return](Index.md)
 # Release Note
 
 As described in [Versioning DOC], the Implementation Guide (IG) and the textual documentation will have different versions, why there are two release notes in the following.
@@ -24,16 +25,16 @@ In the table below updates of the <a href="../index.md" target="_blank">MedCom C
   <tr>
     <th class="tg-uaof">Version</th>
     <th class="tg-uaof">Date</th>
-    <th class="tg-uaof">Initials</th>
     <th class="tg-uaof">Changes</th>
+    <th class="tg-uaof">More information</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-ne9s">1.0.0-a.1</td>
     <td class="tg-ne9s">31-05-2022</td>
-    <td class="tg-ne9s">TMS</td>
     <td class="tg-ne9s">Inital release. Presentation of MedCom Core.</td>
+    <td class="tg-ne9s">View release note for:<br> <a href="index.md">MedComCore</a> <br> <a href="Intro-Technical-Spec-ENG"> Introduction to the Technical Content</a> </td>
   </tr>
   <tr>
     <td class="tg-ne9s"></td>

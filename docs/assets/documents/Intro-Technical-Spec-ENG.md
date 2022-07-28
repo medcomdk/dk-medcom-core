@@ -1,3 +1,4 @@
+[Return](Index.md)
 # Introduction to the Technical Content
 
 > In case of discrepancies between the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>

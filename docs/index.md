@@ -1,4 +1,4 @@
-<a href="https://medcomdk.github.io/MedComLandingPage/" target="_blank">Return to frontpage</a>
+<a href="https://medcomdk.github.io/MedComLandingPage/" target="_blank">Return</a>
 
 # MedCom Core 
 
