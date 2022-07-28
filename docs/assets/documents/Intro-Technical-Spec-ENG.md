@@ -59,3 +59,6 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
   </tr>
 </tbody>
 </table>
+
+# Release Notes
+[Updates in the latest release.](assets/documents/ReleaseNote-intro-Technical-spec.md)
