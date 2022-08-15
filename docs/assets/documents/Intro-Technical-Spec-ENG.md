@@ -1,4 +1,5 @@
-[Return](index.md)
+[Return](docs/index.md)
+<a href="docs/index.md">Return</a>
 # Introduction to the Technical Content
 
 > In case of discrepancies between the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>

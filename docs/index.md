@@ -8,8 +8,6 @@
   * [1.1 Technical Specification](#1.1-technical-specification)
 - [2 Release Notes](#2release-notes)
 <hr/>
-<p>&nbsp;</p>
-
 
 This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedComs FHIR standards. The MedCom Core Implementation Guide (IG) includes the following profiles:	
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> 
