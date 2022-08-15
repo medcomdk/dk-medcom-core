@@ -1,11 +1,13 @@
-<a href="https://medcomdk.github.io/MedComLandingPage/">Return</a>
+<!-- <a href="https://medcomdk.github.io/MedComLandingPage/">Return</a> -->
 
 # MedCom Core 
+<hr/>
 
 **Table of Content**
 - [1 Documentation](#1-documentation)
   * [1.1 Technical Specification](#1.1-technical-specification)
 - [2 Release Notes](#2release-notes)
+<hr/>
 <p>&nbsp;</p>
 
 
