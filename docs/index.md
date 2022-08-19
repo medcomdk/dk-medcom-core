@@ -6,7 +6,6 @@
 **Table of Content**
 - [1 Documentation](#1-documentation)
   * [1.1 Technical Specification](#1.1-technical-specification)
-- [2 Release Notes](#2release-notes)
 <hr/>
 
 This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedComs FHIR standards. The MedCom Core Implementation Guide (IG) includes the following profiles:	
@@ -30,7 +29,4 @@ IGs might be difficult for people with little or no knowledge about FHIR and how
 <br>
 
 [Overview of the content of the standard.](assets/documents/Intro-Technical-Spec-ENG.md)
-
-## 2 Release Notes
-[Updates in the latest release.](assets/documents/ReleaseNote-ENG.md)
 
