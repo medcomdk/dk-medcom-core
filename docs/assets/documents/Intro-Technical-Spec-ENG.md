@@ -1,9 +1,9 @@
 
 [Return](../../index.md)
-# Introduction to the Technical Content
+# Introduction to the technical content
 
 > In case of discrepancies between the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>
- and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepandies.
+ and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepancies.
 
 The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core IG</a> describes five FHIR profiles, which can be seen below. 
 
@@ -32,7 +32,7 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
   <tr>
     <td class="tg-i91a"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a></td>
     <td class="tg-i91a">Patient</td>
-    <td class="tg-i91a">Contains central information about a citizen or patient, when exchanging a information.</td>
+    <td class="tg-i91a">Contains central information about a citizen or patient when exchanging information.</td>
     <td class="tg-i91a">Identifier (CPR-number)<br>Name<br>Address<br>Telecom<br>Managing Organization<br>Deceased or not</td>
   </tr>
   <tr>
