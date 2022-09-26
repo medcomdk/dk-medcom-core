@@ -29,7 +29,7 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * managingOrganization only Reference(MedComCoreOrganization)
 * managingOrganization ^type.aggregation = #bundled
 * managingOrganization ^definition = "Organization that is the custodian of the patient record. This can e.g. be the sender of a message or responsable for the patients treatment. One of these organizations will always be included in the bundle, why this element is not mandatory to include."
-* identifier and name and telecom and address and managingOrganization MS SU
+* identifier and name and telecom and address MS SU
 
 
 Instance: 733cef33-3626-422b-955d-d506aaa65fe1
@@ -58,7 +58,6 @@ Description: "Deceased patient described with maximum information. Valid only if
 * address.line = "Testhjemmet 1"
 * address.city = "Odense M"
 * address.postalCode = "5230"
-* managingOrganization = Reference(bca68510-fe3b-4161-aba0-908a693eb54f)
 * deceasedBoolean = true
 
 Instance: 5b72c625-0570-4111-b272-f0351344f8b6
@@ -79,5 +78,4 @@ Description: "Patient described with maximum information. Valid only if used in 
 * address.line = "Testpark Allé 48"
 * address.city = "Hillerød"
 * address.postalCode = "3400"
-* managingOrganization = Reference(bca68510-fe3b-4161-aba0-908a693eb54f)
 * deceasedBoolean = false

@@ -1,7 +1,7 @@
 ### Scope and usage 
 
 MedComCorePatient profile describes information about a patient or citizen in a MedCom standard. 
-The MedComCorePatient is inherited from the [DkCorePatient](https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html) profile defined by HL7 Denmark. An identifier and the patients official family name ('efternavn' in Danish) shall both be present, when exchanging patient related information.  
+The MedComCorePatient is inherited from the [DkCorePatient](https://hl7.dk/fhir/core/2.0.0/StructureDefinition-dk-core-patient.html) profile defined by HL7 Denmark. An identifier and the patients official family name ('efternavn' in Danish) shall both be present, when exchanging patient related information.  
 
 Please refer to the tab "Snapshot Table(Must support)" below for the definition of the required content of a MedComCorePatient.
 
