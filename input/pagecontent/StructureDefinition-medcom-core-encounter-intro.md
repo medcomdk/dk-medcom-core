@@ -18,7 +18,7 @@ The class describes in which setting the encounter took place. A setting of the 
 
 The element Encounter.episodeOfCare may be included in MedComCoreEncounter. 
 
-The EpisodeOfCare identifier is used to technically connect several encounters concern the same meeting.
+The EpisodeOfCare identifier is used to technically connect several encounters concern the same meeting between a patient and one or more healthcare providers.
 
 It is both possible to use a [Landspatientregisteret](https://www.esundhed.dk/Registre/Landspatientregisteret)-identifier (called LPR3-identifier) and a locally defined identifier as the EpisodeOfCare-identifier. 
 
