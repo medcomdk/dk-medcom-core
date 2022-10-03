@@ -33,7 +33,7 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
     <td class="tg-i91a"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a></td>
     <td class="tg-i91a">Patient</td>
     <td class="tg-i91a">Contains central information about a citizen or patient when exchanging information.</td>
-    <td class="tg-i91a">Identifier (CPR-number)<br>Name<br>Address<br>Telecom<br>Managing Organization<br>Deceased or not</td>
+    <td class="tg-i91a">Identifier (CPR-number or eCPR-number)<br><Name<br>Address<br>Telecom<br>Managing Organization<br>Deceased or not</td>
   </tr>
   <tr>
     <td class="tg-i91a"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-organization.html" target="_blank">MedComCoreOrganization</a></td>
