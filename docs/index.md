@@ -1,12 +1,11 @@
 <!-- <a href="https://medcomdk.github.io/MedComLandingPage/">Return</a> -->
 
 # MedCom Core 
-<hr/>
+
 
 **Table of contents**
 - [1 Standard documentation](#1-standard-documentation)
   * [1.1 Technical specification](#1.1-technical-specification)
-<hr/>
 
 This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedCom's FHIR standards. 
 
