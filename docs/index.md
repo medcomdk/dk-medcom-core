@@ -7,9 +7,9 @@
 - [1 Standard documentation](#1-standard-documentation)
   * [1.1 Technical specification](#1.1-technical-specification)
 
-This page presents the MedCom Core profiles (Dansk: Kerneprofiler) used in MedCom's FHIR standards. 
+This page presents the MedCom Core profiles (Danish: Kerneprofiler) used in MedCom's FHIR standards. 
 
-These profiles describe fundamental information when exchanging information.Therefore, one or more profiles are included in all MedCom's FHIR standards. The core profiles do not constitute a standard on their own, but the profiles will be used in the standards, such as HospitalNotification or CareCommunication. Thus, this page includes the IG and an introduction to the content of the IG solely and does not include clinical guidelines, use cases, test protocols etc.
+These profiles describe fundamental information when exchanging information.Therefore, one or more core profiles are included in all MedCom's FHIR standards. The core profiles do not constitute a standard on their own, but the profiles will be used in the standards, such as HospitalNotification or CareCommunication. Thus, this page includes the IG and an introduction to the content of the IG solely and does not include clinical guidelines, use cases, test protocols etc.
 
 ## 1 Standard documentation 
 In the standard documentation below you will find the necessary content to understand the technical specifications for the standard. 
