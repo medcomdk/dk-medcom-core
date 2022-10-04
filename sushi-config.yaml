@@ -1,5 +1,5 @@
-id: dk.fhir.ig.dk-medcom-core
-canonical: http://medcomfhir.dk/fhir/dk-medcom-core
+id: medcom.fhir.dk.core
+canonical: http://medcomfhir.dk/ig/core
 name: MedComCore
 title: "Danish MedCom Core"
 description: Danish MedCom Core IG
@@ -16,7 +16,7 @@ dependencies:
   hl7.fhir.dk.core: 
     uri: https://hl7.dk/fhir/core/2.0.0/
     version: 2.0.0
-  dk.fhir.ig.dk-medcom-terminology: current
+  medcom.fhir.dk.terminology: current
 
 menu:
   Table of Contents: toc.html

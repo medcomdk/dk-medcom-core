@@ -15,7 +15,7 @@ The purpose of this IG is to:
 The MedComCore profiles only constitutes a part of a standard. To exchange a complete MedCom standard, profiles from the MedComMessaging, MedComCareCommunication or MedComHospitalNotification shall be used, depended on the purpose of the standard. 
 
 #### Terminology
-On [MedCom Terminology IG](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
+On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
 
 #### Dependencies
 

@@ -2,7 +2,7 @@
 
 This profile describes the MedComCoreEncounter. An encounter describes the interaction between a patient and one or more healthcare providers for the purpose of providing healthcare services or assessing the health status of a patient. An encounter can take place in an ambulatory, an emergency, at the citizen's home, virtually and so on. 
 
-The base expectations when describing an encounter in a Danish context is to include the subject of the encounter which shall be a [MedComCorePatient](https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html) as well as a status and class, which are described below. For some specific purposes, such as [HospitalNotification](https://build.fhir.org/ig/medcomdk/dk-medcom-hospitalnotification/), there is a need for a specialization of the MedComCoreEncounter. In these cases, it will be explicitly described which encounter to use and which changed are applied. 
+The base expectations when describing an encounter in a Danish context is to include the subject of the encounter which shall be a [MedComCorePatient](http://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html) as well as a status and class, which are described below. For some specific purposes, such as [HospitalNotification](http://medcomfhir.dk/ig/hospitalnotification/), there is a need for a specialization of the MedComCoreEncounter. In these cases, it will be explicitly described which encounter to use and which changed are applied. 
 
 Please refer to the tab "Snapshot Table(Must support)" below for the definition of the required content of a MedComCoreEncounter. 
 
