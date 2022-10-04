@@ -6,7 +6,7 @@ Description: "A formally recognized organizations within danish healthcare, regi
 * identifier[SOR-ID] 1..
 * identifier[SOR-ID] MS SU
 * name MS
-* name ^definition = "Name of the organaization. Shall be present if known by the sender."
+* name ^definition = "Name of the organization. Shall be present if known by the sender."
 
 
 Instance: 12ee0dde-a672-462f-820d-5efe832d73c9
