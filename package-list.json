@@ -1,24 +1,26 @@
 {
-  "package-id": "dk.fhir.ig.dk-medcom-core",
+  "package-id": "medcom.fhir.dk.core",
   "title": "DK MedCom Core",
   "introduction": "MedCom Core FHIR profiles for Denmark",
-  "canonical": "http://medcomfhir.dk/fhir/core/ig/dk-medcom-core",
+  "canonical": "http://medcomfhir.dk/ig/core",
+  "category": "MedCom Core",
   "list": [
     {
-      "version": "dev",
+      "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
       "path": "http://build.fhir.org/ig/medcomdk/dk-medcom-core",
       "status": "ci-build",
-      "fhirVersion": "4.0.1"
+      "fhirversion": "4.0.1",
+      "current": true
     },
     {
-      "version": "1.0.0",
-      "date": "2021-03-23",
+      "version": "2.0.0",
+      "date": "2022-10-04",
       "desc": "MedCom Core",
-      "path": "http://medcomfhir.dk/fhir/core/ig/dk-medcom-core",
-      "status": "trial-use",
-      "sequence": "STU",
-      "fhirVersion": "4.0.1",
+      "path": "http://medcomfhir.dk/ig/core/2.0.0",
+      "status": "release",
+      "sequence": "Release",
+      "fhirversion": "4.0.1",
       "current": true
     }
   ]
