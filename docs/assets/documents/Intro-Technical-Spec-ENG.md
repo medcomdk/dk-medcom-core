@@ -17,6 +17,7 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
 .tg .tg-67v1{border-color:inherit;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-i91a{border-color:inherit;color:#333333;text-align:left;vertical-align:top}
 </style>
+<div style="overflow-x:auto;">
 <table class="tg" id="Tab1">
 <caption style="color:#2c415c; font-weight:bold;text-align:center"> Table 1: Overview of core profiles in MedCom Core standard</caption>
 <thead>
@@ -60,6 +61,7 @@ The <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank"
   </tr>
 </tbody>
 </table>
+</div>
 
 
 
