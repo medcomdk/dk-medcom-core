@@ -5,7 +5,7 @@
 
 **Table of contents**
 - [1 Standard documentation](#1-standard-documentation)
-  * [1.1 Technical specification](#1.1-technical-specification)
+  * [1.1 Technical specification](#11-technical-specification)
 
 This page presents the MedCom Core profiles (Danish: Kerneprofiler) used in MedCom's FHIR standards. 
 
