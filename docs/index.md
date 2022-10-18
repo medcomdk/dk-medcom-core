@@ -16,12 +16,12 @@ In the standard documentation below you will find the necessary content to under
 
 ### 1.1 Technical specification
 The technical specifications for the MedCom Core profiles are defined in an IG. 
-The <a href="https://medcomfhir.dk/ig/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a> includes the following profiles:	
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> 
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-organization.html" target="_blank">MedComCoreOrganization</a> 
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>  
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-practitioner.html" target="_blank">MedComCorePractitioner</a>
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-practitionerrole.html" target="_blank">MedComCorePractitionerRole</a> 
+The <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core Implementation Guide (IG)</a> includes the following profiles:	
+* <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> 
+* <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-organization.html" target="_blank">MedComCoreOrganization</a> 
+* <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>  
+* <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-practitioner.html" target="_blank">MedComCorePractitioner</a>
+* <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-practitionerrole.html" target="_blank">MedComCorePractitionerRole</a> 
 <br>
 <br>
 

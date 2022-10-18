@@ -2,10 +2,10 @@
 [Return](../../index.md)
 # Introduction to the technical specification
 
-> In case of discrepancies between the <a href="https://medcomfhir.dk/ig/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>
+> In case of discrepancies between the <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core Implementation Guide (IG)</a>
  and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepancies.
 
-The <a href="https://medcomfhir.dk/ig/dk-medcom-core/" target="_blank">MedCom Core IG</a> describes five FHIR profiles, which can be seen in the <a href="#Tab1">Table 1</a>. 
+The <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core IG</a> describes five FHIR profiles, which can be seen in the <a href="#Tab1">Table 1</a>. 
 
 
 <style type="text/css">
@@ -30,31 +30,31 @@ The <a href="https://medcomfhir.dk/ig/dk-medcom-core/" target="_blank">MedCom Co
 </thead>
 <tbody>
   <tr>
-    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a></td>
+    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a></td>
     <td class="tg-i91a">Patient</td>
     <td class="tg-i91a">Contains central information about a citizen or patient when exchanging information.</td>
     <td class="tg-i91a">id<br>Identifier (CPR-number or eCPR-number)<br>Name<br>Address<br>Telecom<br>Managing Organization<br>Deceased or not</td>
   </tr>
   <tr>
-    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-organization.html" target="_blank">MedComCoreOrganization</a></td>
+    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-organization.html" target="_blank">MedComCoreOrganization</a></td>
     <td class="tg-i91a">Organization</td>
     <td class="tg-i91a">Information useful to identify an organization.</td>
     <td class="tg-i91a">id<br>Identifier (SOR-id)<br>Name</td>
   </tr>
   <tr>
-    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a></td>
+    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a></td>
     <td class="tg-i91a">Encounter</td>
     <td class="tg-i91a"> An interaction between a patient/citizen and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient/citizen.</td>
     <td class="tg-i91a">id<br>Encounter status<br>Encounter classification<br>Subject of the encounter<br>Episode of care identifier<br>Service provider organization</td>
   </tr>
   <tr>
-    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-practitioner.html" target="_blank">MedComCorePractitioner</a></td>
+    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-practitioner.html" target="_blank">MedComCorePractitioner</a></td>
     <td class="tg-i91a">Practitioner</td>
     <td class="tg-i91a">Practitioner resource is used to describe a healthcare professional or another actor involved in citizen or patient care.</td>
     <td class="tg-i91a">id<br>Name</td>
   </tr>
   <tr>
-    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-practitionerrole.html" target="_blank">MedComCorePractitionerRole</a></td>
+    <td class="tg-i91a"><a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-practitionerrole.html" target="_blank">MedComCorePractitionerRole</a></td>
     <td class="tg-i91a">PractitionerRole</td>
     <td class="tg-i91a">PractitionerRole resource used to describe the role of a healthcare professional or another actor involved in citizen or patient care.</td>
     <td class="tg-i91a">id<br>References a practitioner</td>
