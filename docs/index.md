@@ -1,4 +1,4 @@
-<!-- <a href="https:/medcomdk.github.io/MedComLandingPage/">Return</a> -->
+<!-- <a href="https://medcomdk.github.io/MedComLandingPage/">Return</a> -->
 
 # MedCom Core 
 
