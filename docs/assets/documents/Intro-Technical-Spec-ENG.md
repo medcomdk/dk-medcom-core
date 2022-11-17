@@ -2,9 +2,14 @@
 [Return](../../index.md)
 # Introduction to the technical specification
 
+**Table of Contents**
+* [1 Content Overview](#1-content-overview)
+* [2 Civil registration number and Replacement person identifier](#2-civil-registration-number-and-replacement-person-identifier)
+
 > In case of discrepancies between the <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core Implementation Guide (IG)</a>
  and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepancies.
 
+## 1 Content overview
 The <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core IG</a> describes five FHIR profiles, which can be seen in the <a href="#Tab1">Table 1</a>. 
 
 
@@ -64,4 +69,6 @@ The <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core IG</a> 
 </div>
 
 
-
+## 2 Civil registration number and Replacement person identifier
+In MedComCorePatient it is required to include an identifier, that represents the patient identification number. In Denmark there are two types of identification numbers: 
+The civil registration number (Danish: CPR), that is the official identification number and the replacement person identifier (E-CPR), which is used when the patient does not have an official registration number. 
