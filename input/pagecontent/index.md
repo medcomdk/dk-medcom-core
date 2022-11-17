@@ -8,6 +8,7 @@ The purpose of this IG is to:
     * [MedComCorePatient](StructureDefinition-medcom-core-patient.html)
     * [MedComCoreOrganization](StructureDefinition-medcom-core-organization.html)
     * [MedComCoreEncounter](StructureDefinition-medcom-core-encounter.html)
+    * [MedComCoreCareTeam](StructureDefinition-medcom-core-careteam.html)
     * [MedComCorePractitioner](StructureDefinition-medcom-core-practitioner.html)
     * [MedComCorePractitionerRole](StructureDefinition-medcom-core-practitionerrole.html)
 * Define extensions necessary for local use covering needed Danish concepts, such as a personal identification number for Danish citizens called Central Person Register (CPR-number).
