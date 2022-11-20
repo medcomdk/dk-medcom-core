@@ -4,7 +4,7 @@ Id: medcom-core-careteam
 Description: "Careteam participating in the care of a patient"
 * name 1.. MS
 * managingOrganization 0..1 MS 
-* managingOrganization only Reference(MedComCoreOrganization or MedComMessagingOrganization) 
+* managingOrganization only Reference(MedComCoreOrganization) 
 * managingOrganization ^type.aggregation = #bundled
 
 Instance: fb1d34fe-6672-11ed-9022-0242ac120002
