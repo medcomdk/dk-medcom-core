@@ -7,7 +7,7 @@ status: active
 version: "2.1.0"
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: Build CI
+releaseLabel: Release
 publisher:
   name: MedCom
   url: http://www.medcom.dk
@@ -16,7 +16,9 @@ dependencies:
   hl7.fhir.dk.core: 
     uri: https://hl7.dk/fhir/core/2.0.0/
     version: 2.0.0
-  medcom.fhir.dk.terminology: current
+  medcom.fhir.dk.terminology:
+    uri: https://medcomfhir.dk/ig/terminology/1.1.0/
+    version: 1.1.0
 
 menu:
   Table of Contents: toc.html

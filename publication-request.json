@@ -1,0 +1,12 @@
+{
+    "package-id": "medcom.fhir.dk.core",
+    "version": "2.1.0",
+    "path": "http://medcomfhir.dk/ig/core/2.1.0",
+    "status": "release",
+    "sequence": "Release",
+    "milestone" : true,
+    "title": "The DK MedCom Core IG",
+    "category": "MedCom Core",
+    "introduction": "The MedCom Core Implementation Guide includes core profiles used across MedCom's FHIR-standards.",
+    "descmd": "@release-notes.md"
+}
