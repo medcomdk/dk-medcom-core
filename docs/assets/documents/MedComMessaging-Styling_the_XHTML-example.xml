@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Basic xmlns="http://hl7.org/fhir">
-  <id value="medcom-basic-example-narrative"/> 
+  <id value="MedComMessaging-Styling_the_XHTML-example"/> 
   <text> 
     <status value="additional"/> 
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -115,14 +115,6 @@
         <li> disc (Item 1)</li> 
         <li> Item Two</li> 
       </ul> 
-      <ul class="circle">
-        <li> circle (Item 1)</li> 
-        <li> Item Two</li> 
-      </ul> 
-      <ul class="square">
-        <li> square (Item 1)</li> 
-        <li> Item Two</li> 
-      </ul> 
       <h2> Internal Styles</h2> 
       <p> Example Text: <span style="font-weight: bold">bold</span> , <span style="font-style: italics">italics</span> , <span style="text-decoration: underline">underline</span>  
         and <span style="text-decoration: line-through">strikethrough</span> . 
@@ -176,14 +168,6 @@
          screen. The content should be laid out aligned at both the left and right of the screen.
          The content should be laid out aligned at both the left and right of the screen.  </p>   
       
-      <ol style="list-style-type: armenian">
-        <li> armenian (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol>         
-      <ol style="list-style-type: cjk-ideographic">
-        <li> cjk-ideographic  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
       <ol style="list-style-type: decimal">
         <li> decimal  (Item 1)</li> 
         <li> Item Two</li> 
@@ -192,71 +176,10 @@
         <li> decimal-leading-zero  (Item 1)</li> 
         <li> Item Two</li> 
       </ol> 
-      <ol style="list-style-type: georgian">
-        <li> georgian  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: hebrew">
-        <li> hebrew  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: hiragana">
-        <li> hiragana  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: hiragana-iroha">
-        <li> hiragana-iroha  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: inherit">
-        <li> inherit  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: katakana">
-        <li> katakana  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: katakana-iroha">
-        <li> katakana-iroha  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: lower-alpha">
-        <li> lower-alpha  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: lower-greek">
-        <li> lower-greek  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: lower-latin">
-        <li> lower-latin  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: lower-roman">
-        <li> lower-roman  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
       <ol style="list-style-type: none">
         <li> none  (Item 1)</li> 
         <li> Item Two</li> 
       </ol> 
-      <ol style="list-style-type: upper-alpha">
-        <li> upper-alpha  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: upper-latin">
-        <li> upper-latin  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: upper-roman">
-        <li> upper-roman  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol style="list-style-type: upper-roman">
-        <li> upper-roman  (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      
     </div> 
   </text> 
   <code> 
