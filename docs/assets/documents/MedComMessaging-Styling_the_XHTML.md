@@ -9,6 +9,8 @@ This version of <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_bl
 MedCom has for this adjustment also narrowed down the example provided by HL7 FHIR <a href ="https://www.hl7.org/fhir/basic-example-narrative.html" target="_blank"> Example </a>
 You can find MedCom's example <a href="MedComMessaging-Styling_the_XHTML-example.xml" target="_blank">here</a>
 
+MedCom will also for testing purposes provide example resources that includes all of these styles. 
+
 MedCom has no intention of explaining the further use of XHTML as the use of it **SHOULD** follow the general guidelines pointed out by the general HL7 FHIR specification of the actual version.
 
 ## MedCom recommended styles
