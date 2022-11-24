@@ -7,7 +7,7 @@ As descibed in <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_bla
 This version of <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">"2.4.0.4 Styling the XHTML"</a> is intentionally only adjusted to point out the above recommendations and corrected the words MAY and SHOULD to follow the standard style of how MedCom's Governance is expressed using upper case bold versions of **MAY** and **SHOULD** where needed.
 
 MedCom has for this adjustment also narrowed down the example provided by HL7 FHIR <a href ="https://www.hl7.org/fhir/basic-example-narrative.html" target="_blank"> Example </a>
-You can find MedCom's example <a href="MedComMessaging-Styling_the_XHTML-example.xml" target="_blank">here</a>
+You can find MedCom's example <a href="MedComCore-Styling_the_XHTML-example.xml" target="_blank">here</a>
 
 MedCom will also for testing purposes provide example resources that includes all of these styles. 
 
