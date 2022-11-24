@@ -7,7 +7,7 @@ You can find MedCom's example <a href ="medcom-basic-example-narrative.html" tar
 
 ## MedCom recommended styles
 
-|xhtml-style|meadning|xhtml-style|
+|xhtml-tag|meadning|xhtml-style|
 |:---|:---|:---|
 | bold | Bold Text | { font-weight: bold  } |
 | italics | Italics Text | { font-style: italic  } |
@@ -21,14 +21,14 @@ You can find MedCom's example <a href ="medcom-basic-example-narrative.html" tar
 | border-right | Border on the right | { border-right: 1px solid grey  } |
 | border-top | Border on the top | { border-top: 1px solid grey  } |
 | border-bottom | Border on the bottom | { border-bottom: 1px solid grey  } |
+| arabic | List is ordered using Arabic numerals: 1, 2, 3 | { list-style-type: decimal  } |
 | disc | List bullets are simple solid discs | { list-style-type: disc  } |
 | unlist | List with no bullets | { list-style-type: none  } |
 
 ## Not MedCom recommended styles
 
-|xhtml-style|meadning|xhtml-style|
+|xhtml-tag|meadning|xhtml-style|
 |:---|:---|:---|
-| arabic | List is ordered using Arabic numerals: 1, 2, 3 | { list-style-type: decimal  } |
 | little-roman | List is ordered using little Roman numerals: i, ii, iii | { list-style-type: lower-roman  } |
 | big-roman | List is ordered using big Roman numerals: I, II, III | { list-style-type: upper-roman  } |
 | little-alpha | List is ordered using little alpha characters: a, b, c | { list-style-type: lower-alpha  } |
