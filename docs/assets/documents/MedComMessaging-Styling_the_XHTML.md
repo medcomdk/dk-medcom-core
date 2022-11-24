@@ -1,9 +1,9 @@
 # Styling the XHTML
 
-As descibed in <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">Styling the XHTML in FHIR R4</a>| the XHTML fragment in the narrative may be styled in different ways, however, MedCom recommends the following, meaning that an implementer **SHOULD** use XHTML in a boiled down version:
+As descibed in <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">Styling the XHTML in FHIR R4</a> the XHTML fragment in the narrative may be styled in different ways, however, MedCom recommends the following, meaning that an implementer **SHOULD** use XHTML in a boiled down version:
 
 MedCom has for this narrowed down the example provided by HL7 FHIR <a href ="https://www.hl7.org/fhir/basic-example-narrative.html" target="_blank"> Example </a>
-You can find MedCom's example <a href ="medcom-basic-example-narrative.html" target="_blank">here</a>
+You can find MedCom's example <a href="MedComMessaging-Styling_the_XHTML-example.xml" target="_blank">here</a>
 
 ## MedCom recommended styles
 
