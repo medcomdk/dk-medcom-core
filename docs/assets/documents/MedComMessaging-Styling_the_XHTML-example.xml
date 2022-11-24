@@ -107,22 +107,6 @@
         <li> arabic (Item 1)</li> 
         <li> Item Two</li> 
       </ol> 
-      <ol class="little-roman">
-        <li> little-roman (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol class="big-roman">
-        <li> big-roman (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol class="little-alpha">
-        <li> little-alpha (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
-      <ol class="big-alpha">
-        <li> big-alpha (Item 1)</li> 
-        <li> Item Two</li> 
-      </ol> 
       <ul class="unlist">
         <li> unlist (Item 1)</li> 
         <li> Item Two</li> 
