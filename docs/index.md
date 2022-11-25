@@ -28,10 +28,6 @@ The <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core Impleme
 The link below gives an overview of the included profiles, what their purpose is, and which elements the system should support. Further the structure of the standard is described and supported with examples in different degree of technical skills.
 [Click here to find an overview of the content of the standard.](assets/documents/Intro-Technical-Spec-ENG.md)
 
-<!-- As mentioned previously the MedCom Core profiles do not alone compose a standard but are used to describe important information in MedCom's standards. 
-
-Understanding IG's might be difficult for people with little or no knowledge about FHIR. Therefore, MedCom has developed a page describing the content of the core IG. The link below gives an overview of the included profiles, what their purpose is, and which elements the system should suppor.  -->
-
 
 
 
