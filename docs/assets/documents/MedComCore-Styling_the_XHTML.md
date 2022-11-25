@@ -1,14 +1,14 @@
 # Styling the XHTML
 
-As descibed in <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">"2.4.0.4 Styling the XHTML" </a> in FHIR R4 documentation, the XHTML fragment in the narrative **MAY** be styled in different ways. 
-However, MedCom recommends that an developer:
+
+As described in <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">"2.4.0.4 Styling the XHTML" in FHIR R4</a> the XHTML fragment in the narrative **MAY** be styled in different ways, however, MedCom recommends the following, meaning that an implementer 
 * **SHOULD** use XHTML in a boiled down version specified here: [MedCom recommended styles](#medcom-recommended-styles)
 * and **SHOULD NOT** use XHTML styles outlined here: [Not-MedCom recommended styles](#not-medcom-recommended-styles)
 
 This version of <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">"2.4.0.4 Styling the XHTML"</a> is intentionally only adjusted to point out the above recommendations and corrected the words MAY and SHOULD to follow the standard style of how MedCom's Governance is expressed using upper case bold versions of **MAY** and **SHOULD** where needed.
 
 MedCom has for this adjustment also narrowed down the example provided by HL7 FHIR.  <a href ="https://www.hl7.org/fhir/basic-example-narrative.html" target="_blank"> Click here to see the original HL7 FHIR example of XHTML styling. </a>
-You can find MedCom's example <a href="MedComCore-Styling_the_XHTML-example.xml" target="_blank">Click here to see MedCom's example of XHTML styling. </a>
+You can also find MedCom's example. <a href="MedComCore-Styling_the_XHTML-example.xml" target="_blank">Click here to see MedCom's example of XHTML styling. </a>
 
 MedCom will also for testing purposes provide example resources that includes all of these styles. 
 
@@ -35,6 +35,7 @@ MedCom has no intention of explaining the further use of XHTML as the use of it 
 | unlist | List with no bullets | { list-style-type: none  } |
 
 ## Not MedCom recommended styles
+
 
 |xhtml-tag|meaning|xhtml-style|
 |:---|:---|:---|
