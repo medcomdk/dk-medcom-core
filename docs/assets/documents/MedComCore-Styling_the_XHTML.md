@@ -1,13 +1,14 @@
 # Styling the XHTML
 
-As descibed in <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">"2.4.0.4 Styling the XHTML" in FHIR R4</a> the XHTML fragment in the narrative **MAY** be styled in different ways, however, MedCom recommends the following, meaning that an implementer 
+
+As described in <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">"2.4.0.4 Styling the XHTML" in FHIR R4</a> the XHTML fragment in the narrative **MAY** be styled in different ways, however, MedCom recommends the following, meaning that an implementer 
 * **SHOULD** use XHTML in a boiled down version specified here: [MedCom recommended styles](#medcom-recommended-styles)
 * and **SHOULD NOT** use XHTML styles outlined here: [Not-MedCom recommended styles](#not-medcom-recommended-styles)
 
 This version of <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">"2.4.0.4 Styling the XHTML"</a> is intentionally only adjusted to point out the above recommendations and corrected the words MAY and SHOULD to follow the standard style of how MedCom's Governance is expressed using upper case bold versions of **MAY** and **SHOULD** where needed.
 
-MedCom has for this adjustment also narrowed down the example provided by HL7 FHIR <a href ="https://www.hl7.org/fhir/basic-example-narrative.html" target="_blank"> Example </a>
-You can find MedCom's example <a href="MedComCore-Styling_the_XHTML-example.xml" target="_blank">here</a>
+MedCom has for this adjustment also narrowed down the example provided by HL7 FHIR.  <a href ="https://www.hl7.org/fhir/basic-example-narrative.html" target="_blank"> Click here to see the original HL7 FHIR example of XHTML styling. </a>
+You can also find MedCom's example. <a href="MedComCore-Styling_the_XHTML-example.xml" target="_blank">Click here to see MedCom's example of XHTML styling. </a>
 
 MedCom will also for testing purposes provide example resources that includes all of these styles. 
 
@@ -15,7 +16,7 @@ MedCom has no intention of explaining the further use of XHTML as the use of it 
 
 ## MedCom recommended styles
 
-|xhtml-tag|meadning|xhtml-style|
+|xhtml-tag|meaning|xhtml-style|
 |:---|:---|:---|
 | bold | Bold Text | { font-weight: bold  } |
 | italics | Italics Text | { font-style: italic  } |
@@ -35,7 +36,8 @@ MedCom has no intention of explaining the further use of XHTML as the use of it 
 
 ## Not MedCom recommended styles
 
-|xhtml-tag|meadning|xhtml-style|
+
+|xhtml-tag|meaning|xhtml-style|
 |:---|:---|:---|
 | little-roman | List is ordered using little Roman numerals: i, ii, iii | { list-style-type: lower-roman  } |
 | big-roman | List is ordered using big Roman numerals: I, II, III | { list-style-type: upper-roman  } |
@@ -52,11 +54,11 @@ Authoring systems **MAY** also use internal styles using the style attribute. Th
 
 Authoring systems **MAY** fix the following styling aspects of the content:
 
-bold, italic, underline, strikethrough
-font color, family and size
-background color, text alignment
-whitespace interpretation
-ordered list number format (since it may be referred to in text)
+* bold, italic, underline, strikethrough,
+* font color, family and size,
+* background color, text alignment,
+* whitespace interpretation,
+* ordered list number format (since it may be referred to in text)
 
 These style properties are specified in-line using the style attribute. Rendering systems **SHOULD** respect any of these rendering styles when they are specified in the style attribute, although appropriate interpretation is allowed in certain contexts (e.g. a low-contrast display for dark rooms or a high-contrast display for the visually impaired may adjust colors accordingly).
 
