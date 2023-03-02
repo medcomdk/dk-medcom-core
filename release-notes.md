@@ -1,2 +1,1 @@
-- The profile MedComCoreCareTeam is added to describe careteams involved in patient care.
-- In MedComCorePractitionerRole profile is the element organization made MustSupport. 
+TBD
