@@ -14,6 +14,8 @@ MedCom will also for testing purposes provide example resources that includes al
 
 MedCom has no intention of explaining the further use of XHTML as the use of it **SHOULD** follow the general guidelines pointed out by the general HL7 FHIR specification of the actual version.
 
+Using styling of text is recommended, but all systems **SHALL** be able to understand and display a linebreak, marked with `<br/>`.
+
 ## MedCom recommended styles
 
 |xhtml-tag|meaning|xhtml-style|
