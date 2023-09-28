@@ -4,7 +4,7 @@ name: MedComCore
 title: "Danish MedCom Core"
 description: Danish MedCom Core IG
 status: active
-version: "2.1.0"
+version: "2.2.0"
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: Release
@@ -16,8 +16,7 @@ dependencies:
   hl7.fhir.dk.core: 
     uri: https://hl7.dk/fhir/core/2.0.0/
     version: 2.0.0
-  medcom.fhir.dk.terminology: current
-
+  medcom.fhir.dk.terminology: 1.4.0
 menu:
   Table of Contents: toc.html
   Home: index.html
@@ -28,5 +27,5 @@ menu:
 
 parameters:
   apply-contact: true
-  apply-juristiction: true
+  apply-jurisdiction: true
   apply-publisher: true
