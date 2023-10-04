@@ -4,3 +4,4 @@ Alias: $EncounterClassVS = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-c
 Alias: $MedComCoreECPRValues = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-core-ecpr-values
 Alias: $PractitionerRoles = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-core-PractitionerRoles 
 Alias: $PractitionerRole = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-core-PractitionerRolesSKSadministrativ
+Alias: $MedComCoreECPRCodes = https://medcomfhir.dk/ig/terminology/CodeSystem-medcom-core-ecpr-codes
