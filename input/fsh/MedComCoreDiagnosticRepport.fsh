@@ -2,7 +2,7 @@ Profile: MedComCoreDiagnosticReport
 Parent: DiagnosticReport
 Id: medcom-core-diagnosticreport
 Title: "MedComCoreDiagnosticReport"
-Description: "Report containing all observation results. "
+Description: "Report containing all observation results."
 * status 1..1 MS
 * status from $StatusCodeDiagnosticReport
 * status ^short = "registered | partial | preliminary | final | corrected | cancelled | entered-in-error" 
@@ -18,9 +18,7 @@ Description: "Report containing all observation results. "
 * performer MS
 * media MS
 * media.link only Reference(MedComCoreMedia) 
-* media ^short = "Attachemts that are relevant for assesment of the patient's condition "
+* media ^short = "Attachments that are relevant for assessment of the patient's condition."
 * media.link MS SU
 * conclusion 0..1 MS
 * conclusion ^short = "A comment relevant for all observations in the report."
-* meta.security 0..1 MS SU
-* meta.security = $v3-Confidentiality#R "Restricted"

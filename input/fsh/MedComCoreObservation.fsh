@@ -7,7 +7,7 @@ Description: "Observation profile intended to be used in MedComHomeCareObservati
 * status from $ObsStatusCodes
 * status ^short = "registered | partial | preliminary | final | corrected | cancelled | entered-in-error" 
 * effectiveDateTime MS 
-* effectiveDateTime ^short = "Tha date and time the sample was taken (Danish: prøvetegningstidspunkt)."
+* effectiveDateTime ^short = "The date and time the sample was taken (Danish: prøvetegningstidspunkt)."
 * code MS
 * code.coding.code MS
 * code.coding.system MS

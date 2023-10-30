@@ -6,7 +6,7 @@ This profile is a MedCom Core profile for observations and is intended to repres
 * observations performed by a municipal acute care team  
 
 #### Status
-The MedComCoreObservation resource require an indication of the observation status. To indicate the observation status a code from ValueSet from HL7 should be used. When the result of the observation is final then the status code shoul also be "Final" . <a href="http://hl7.org/fhir/ValueSet/observation-status"> Click here se the status codes.</a> 
+The MedComCoreObservation resource require an indication of the observation status. To indicate the observation status a code from ValueSet defined by MedCom shall be used. <a href="http://medcomfhir.dk/ig/terminology/ValueSet-medcom-core-observation-status.html"> Click here se the status codes.</a> 
 
 
 #### Codes
