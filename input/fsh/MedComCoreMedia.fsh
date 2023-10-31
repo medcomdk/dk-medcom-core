@@ -5,7 +5,7 @@ Title: "MedComMedia"
 Description: "Profile to capture relevant images,audio, video and document as part of the healthcare process"
 * status MS
 * identifier 1..1 MS
-* identifier only MedComCoreIdentifierExtension
+* identifier only MedComAssignedIdentifier
 * operator 0..1 MS
 * operator only Reference(MedComCorePractitioner or MedComCorePractitionerRole)
 * content.data MS
