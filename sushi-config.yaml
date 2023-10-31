@@ -17,7 +17,7 @@ dependencies:
     uri: https://hl7.dk/fhir/core/2.2.0/
     version: 2.2.0
   medcom.fhir.dk.terminology: 1.5.0
-  medcom.fhir.dk.messaging: 2.1.0
+
 
 menu:
   Table of Contents: toc.html
