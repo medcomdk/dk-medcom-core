@@ -1,1 +1,1 @@
-* Moved extensions from the CareCommunication IG to this IG and updated the descriptions. 
+*  MedComCoreMedia, MedComCoreObservation and MedComCore DiagnosticReport added. All profiles are developed and intended to be part of a production trial of the communication between the general practitioner and municipal acute care team.
