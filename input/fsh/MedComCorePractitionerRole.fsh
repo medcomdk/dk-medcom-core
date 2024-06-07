@@ -6,6 +6,8 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * practitioner MS
 * code MS
 * code from $PractitionerRoles (example)
+* code.coding MS
+* code.text MS
 * organization MS
 * organization only Reference(MedComCoreOrganization) 
 * organization ^type.aggregation = #bundled
