@@ -4,10 +4,8 @@ Id: medcom-core-patient
 Description: "Patient/citizen resource to use as subject in MedCom communication."
 * identifier[cpr] ^short = "Unique identification number for all citizens in Denmark, called civil person register (CPR-number)."
 * identifier[cpr] MS
-* identifier contains ecpr ..1
-* identifier[ecpr] only MedComCoreECprIdentifier
-* identifier[ecpr] ^short = "Replacement person identifier (E-CPR). This identifier must only be used in cases where a person does not have an official CPR-number."
-* identifier[ecpr] MS
+* identifier[x-ecpr] MS
+* identifier[d-ecpr] MS
 * name 1..
 * name[official] 1.. MS
 * name[official].given MS
@@ -40,6 +38,19 @@ Description: "Patient described with minimal information. Valid only if used in 
 * identifier[cpr].value = "2509479989"
 * name[official].use = #official
 * name[official].family = "Elmer"
+
+
+Instance: ded1fc9a-aa93-4162-aaec-7145a8ac951f
+InstanceOf: MedComCorePatient
+Title: "Birgit Berggren"
+Description: "Patient described with minimal information and replacement cpr-number. Valid only if used in a Bundle."
+* identifier.system = "urn:oid:1.2.208.176.1.6.1.1"
+* identifier.value = "0102882KL5"
+* identifier.use = #temp
+* name[official].use = #official
+* name[official].family = "Berggren"
+* name[official].given = "Birgit"
+
 
 
 Instance: 382fb8a3-6725-41e2-a615-2b1cfcfe9931
