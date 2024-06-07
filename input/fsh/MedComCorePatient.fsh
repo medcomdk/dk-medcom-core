@@ -45,7 +45,7 @@ InstanceOf: MedComCorePatient
 Title: "Birgit Berggren"
 Description: "Patient described with minimal information and replacement cpr-number. Valid only if used in a Bundle."
 * identifier.system = "urn:oid:1.2.208.176.1.6.1.1"
-* identifier.value = "0102882KL5"
+* identifier.value = "0703921VJ4"
 * identifier.use = #temp
 * name[official].use = #official
 * name[official].family = "Berggren"
