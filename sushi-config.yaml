@@ -3,11 +3,11 @@ canonical: http://medcomfhir.dk/ig/core
 name: MedComCore
 title: "DK MedCom Core"
 description: Danish MedCom Core IG
-status: draft
+status: active
 version: "2.4.0"
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: ci-build
+releaseLabel: release
 publisher:
   name: MedCom
   url: http://www.medcom.dk
