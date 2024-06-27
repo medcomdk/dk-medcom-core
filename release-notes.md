@@ -1,1 +1,1 @@
-*  MedComCoreMedia, MedComCoreObservation and MedComCore DiagnosticReport added. All profiles are developed and intended to be part of a production trial of the communication between the general practitioner and municipal acute care team.
+* Updated dependency to DkCore v. 3.2.0, resulting in new slices for replacement-CPR (e-cpr) in Patient.identifier.
