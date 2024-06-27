@@ -1,4 +1,4 @@
-Profile: MedComCoreECprIdentifier
+/* Profile: MedComCoreECprIdentifier
 Parent: Identifier
 Id: medcom-core-ecpr-identifier
 Title: "Danish Replacement Person Identifier (E-CPR)"
@@ -7,4 +7,4 @@ Description: "A Danish replacement person identifier. This shall only be used wh
 * system 1..
 * system from $MedComCoreECPRValues
 * value 1..
-* value ^maxLength = 10
+* value ^maxLength = 10 */
