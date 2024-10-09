@@ -19,12 +19,12 @@ The <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core IG</a> 
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-67v1{border-color:inherit;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-67v1{border-color:inherit;color:#002134;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-i91a{border-color:inherit;color:#333333;text-align:left;vertical-align:top}
 </style>
 <div style="overflow-x:auto;">
 <table class="tg" id="Tab1">
-<caption style="color:#2c415c; font-weight:bold;text-align:center"> Table 1: Overview of core profiles in MedCom Core standard</caption>
+<caption style="color:#002134; font-weight:bold;text-align:center"> Table 1: Overview of core profiles in MedCom Core standard</caption>
 <thead>
   <tr>
     <th class="tg-67v1">Profile</th>
