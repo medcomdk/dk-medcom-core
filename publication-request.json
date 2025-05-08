@@ -4,9 +4,11 @@
     "path": "http://medcomfhir.dk/ig/core/2.4.0",
     "status": "release",
     "sequence": "Release",
-    "milestone" : true,
+    "mode" : "milestone",
+    "first": false,
+    "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-core",
     "title": "The DK MedCom Core IG",
-    "category": "MedCom Core",
+    "category": "Frameworks",
     "introduction": "The MedCom Core Implementation Guide includes core profiles used across MedCom's FHIR-standards.",
     "descmd": "@release-notes.md"
 }
