@@ -3,6 +3,10 @@ Parent: Encounter
 Id: medcom-core-encounter
 Description: "An interaction between a patient/citizen and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient/citizen."
 * status MS
+* identifier 1..1 MS 
+* identifier.value 1..1 MS 
+* identifier obeys medcom-uuidv4
+* identifier ^short = "The Encounter identifier" 
 * class MS
 * class from $EncounterClassVS
 * episodeOfCare MS
@@ -34,3 +38,4 @@ Description: "Example of a simple MedCom Core Encounter"
 * status = $StatusCodes#planned 
 * class = $ActCodes#AMB 
 * subject = Reference(733cef33-3626-422b-955d-d506aaa65fe1)
+* identifier.value = "urn:uuid:88816903-51a5-4cdb-9369-96a7eaf0bd05"
