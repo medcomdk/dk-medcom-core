@@ -12,7 +12,7 @@ Id: medcom-assigned-identifier
 Title: "AssignedIdentifier"
 Description: "An UUID identifier assigned by an organisation"
 * value 1..
-  * ^short = "The value is a UUID identifier version 4." // (Not sure about this line, I think it should work?
+  * ^short = "The value is a UUID identifier version 4." 
   * obeys medcom-uuidv4
 * assigner 1..
 * assigner ^short = "A reference to the organization that initially added the identifier."
