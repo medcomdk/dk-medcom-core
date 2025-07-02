@@ -3,7 +3,10 @@ Parent: DkCoreObservation
 Id: medcom-core-observation
 Title: "MedComCoreObservation"
 Description: "Observation profile intended to be used in MedComHomeCareObservation and MedCom's Laboratory standards."
-* status 1..1 MS
+* identifier 1..1 MS 
+* identifier.value 1..1 MS 
+* identifier obeys medcom-uuidv4
+* identifier ^short = "The observation identifier" * status 1..1 MS
 * status from $ObsStatusCodes
 * status ^short = "registered | partial | preliminary | final | corrected | cancelled | entered-in-error" 
 * effectiveDateTime MS 
