@@ -13,4 +13,5 @@ Alias: $obsInterpretation = http://medcomfhir.dk/ig/terminology/CodeSystem/medco
 Alias: $DiagnosticReportCodeSystem = http://medcomfhir.dk/ig/terminology/CodeSystem/MedComDiagnosticReportCodes	
 Alias: $DiagnosticReportCode = http://medcomfhir.dk/ig/terminology/ValueSet/MedComDiagnosticReportCodesValueset
 Alias: $mediastatus = http://hl7.org/fhir/event-status
-Alias: $ProducenID = http://medcomfhir.dk/ig/terminology/CodeSystem/MedComProducentID  
+Alias: $ProducenID = http://medcomfhir.dk/ig/terminology/CodeSystem/MedComProducentID
+Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
