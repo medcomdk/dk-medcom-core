@@ -27,8 +27,20 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * managingOrganization only Reference(MedComCoreOrganization)
 * managingOrganization ^type.aggregation = #bundled
 * managingOrganization ^definition = "Organization that is the custodian of the patient record. This can e.g. be the sender of a message or responsable for the patients treatment. One of these organizations will always be included in the bundle, why this element is not mandatory to include."
-* identifier and name and telecom and address MS SU
-
+* identifier and name and telecom and address MS
+* insert ProducerShallPutInNarrative(id)
+* insert ProducerShallPutInNarrative(identifier)
+* insert ProducerShallPutInNarrative(identifier[cpr])
+* insert ProducerShallPutInNarrative(identifier[x-ecpr])
+* insert ProducerShallPutInNarrative(identifier[d-ecpr])
+* insert ProducerShallPutInNarrative(name[official])
+* insert ProducerShallPutInNarrative(name[official].family)
+* insert ProducerShallPutInNarrative(name[official].given)
+* insert ProducerShallPutInNarrative(telecom)
+* insert ProducerShallPutInNarrative(address)
+* insert ProducerShallPutInNarrative(address.line)
+* insert ProducerShallPutInNarrative(address.city)
+* insert ProducerShallPutInNarrative(address.postalCode)
 
 Instance: 733cef33-3626-422b-955d-d506aaa65fe1
 InstanceOf: MedComCorePatient
