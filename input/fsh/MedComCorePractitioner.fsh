@@ -7,6 +7,8 @@ Description: "Practitioner resource is used to describe a healthcare professiona
 * identifier obeys medcom-uuidv4
 * identifier ^short = "The Practitioner identifier" 
 * name MS
+* insert ProducerShallPutInNarrative(id)
+* insert ProducerShallPutInNarrative(name)
 
 Instance: e9eacb62-666b-11ed-9022-0242ac120002
 InstanceOf: MedComCorePractitioner
