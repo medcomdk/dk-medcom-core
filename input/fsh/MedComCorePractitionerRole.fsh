@@ -2,6 +2,7 @@ Profile: MedComCorePractitionerRole
 Parent: PractitionerRole
 Id: medcom-core-practitionerrole
 Description: "PractitionerRole resource used to describe the role of a healthcare professional or another actor involved in  citizen or patient care."
+* id MS
 * identifier 1..1 MS 
 * identifier.value 1..1 MS 
 * identifier obeys medcom-uuidv4
@@ -18,7 +19,6 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * insert ProducerShallPutInNarrative(id)
 * insert ProducerShallPutInNarrative(practitioner)
 * insert ProducerShallPutInNarrative(organization)
-* insert ProducerShallPutInNarrative(code)
 * insert ProducerShallPutInNarrative(code.coding)
 * insert ProducerShallPutInNarrative(code.text)
 

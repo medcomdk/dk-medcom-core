@@ -2,6 +2,7 @@ Profile: MedComCorePatient
 Parent: http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
 Id: medcom-core-patient
 Description: "Patient/citizen resource to use as subject in MedCom communication."
+* id MS
 * identifier[cpr] ^short = "Unique identification number for all citizens in Denmark, called civil person register (CPR-number)."
 * identifier[cpr] MS
 * identifier[x-ecpr] MS
