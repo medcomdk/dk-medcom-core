@@ -6,6 +6,9 @@ Description: "Careteam participating in the care of a patient"
 * managingOrganization 0..1 MS 
 * managingOrganization only Reference(MedComCoreOrganization) 
 * managingOrganization ^type.aggregation = #bundled
+* insert ProducerShallPutInNarrative(id)
+* insert ProducerShallPutInNarrative(name)
+* insert ProducerShallPutInNarrative(managingOrganization)
 
 Instance: fb1d34fe-6672-11ed-9022-0242ac120002
 InstanceOf: MedComCoreCareTeam
