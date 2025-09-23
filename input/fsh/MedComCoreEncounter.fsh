@@ -2,6 +2,7 @@ Profile: MedComCoreEncounter
 Parent: Encounter
 Id: medcom-core-encounter
 Description: "An interaction between a patient/citizen and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient/citizen."
+* id MS
 * status MS
 * identifier 1..1 MS 
 * identifier.value 1..1 MS 
@@ -28,8 +29,13 @@ Description: "An interaction between a patient/citizen and healthcare provider(s
 * serviceProvider only Reference(MedComCoreOrganization)
 * serviceProvider ^type.aggregation = #bundled
 * serviceProvider MS
-
-
+* insert ProducerShallPutInNarrative(id)
+* insert ProducerShallPutInNarrative(status)
+* insert ProducerShallPutInNarrative(class)
+* insert ProducerShallPutInNarrative(subject)
+* insert ProducerShallPutInNarrative(episodeOfCare.identifier)
+* insert ProducerShallPutInNarrative(episodeOfCare[lpr3identifier].identifier)
+* insert ProducerShallPutInNarrative(serviceProvider)
 
 Instance: 6220b42d-c4fd-4c77-bae7-78e7d890dc8d
 InstanceOf: MedComCoreEncounter
