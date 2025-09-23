@@ -3,6 +3,10 @@ Parent: http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
 Id: medcom-core-patient
 Description: "Patient/citizen resource to use as subject in MedCom communication."
 * id MS
+* text MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
 * identifier[cpr] ^short = "Unique identification number for all citizens in Denmark, called civil person register (CPR-number)."
 * identifier[cpr] MS
 * identifier[x-ecpr] MS
