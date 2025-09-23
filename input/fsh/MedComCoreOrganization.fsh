@@ -3,6 +3,10 @@ Parent: DkCoreOrganization
 Id: medcom-core-organization
 Description: "A formally recognized organizations within danish healthcare, registered with a SOR identifier issued by The Danish Health Data Authority"
 * id MS
+* text MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
 * identifier[SOR-ID] ^short = "Sundhedsvæsenets Organisationsregister (SOR) identifier" 
 * identifier[SOR-ID] 1..
 * identifier[SOR-ID] MS SU
