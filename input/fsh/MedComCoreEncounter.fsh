@@ -3,6 +3,10 @@ Parent: Encounter
 Id: medcom-core-encounter
 Description: "An interaction between a patient/citizen and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient/citizen."
 * id MS
+* text MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
 * status MS
 * class MS
 * class from $EncounterClassVS
