@@ -2,10 +2,18 @@ Profile: MedComCoreCareTeam
 Parent: CareTeam
 Id: medcom-core-careteam
 Description: "Careteam participating in the care of a patient"
+* id MS
+* text MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
 * name 1.. MS
 * managingOrganization 0..1 MS 
 * managingOrganization only Reference(MedComCoreOrganization) 
 * managingOrganization ^type.aggregation = #bundled
+* insert ProducerShallPutInNarrative(id)
+* insert ProducerShallPutInNarrative(name)
+* insert ProducerShallPutInNarrative(managingOrganization)
 
 Instance: fb1d34fe-6672-11ed-9022-0242ac120002
 InstanceOf: MedComCoreCareTeam

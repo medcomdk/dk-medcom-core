@@ -2,7 +2,14 @@ Profile: MedComCorePractitioner
 Parent: http://hl7.dk/fhir/core/StructureDefinition/dk-core-practitioner
 Id: medcom-core-practitioner
 Description: "Practitioner resource is used to describe a healthcare professional or another actor involved in citizen or patient care."
+* id MS
+* text MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
 * name MS
+* insert ProducerShallPutInNarrative(id)
+* insert ProducerShallPutInNarrative(name)
 
 Instance: e9eacb62-666b-11ed-9022-0242ac120002
 InstanceOf: MedComCorePractitioner
