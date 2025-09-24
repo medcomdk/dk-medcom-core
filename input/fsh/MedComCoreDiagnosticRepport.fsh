@@ -5,7 +5,7 @@ Title: "MedComCoreDiagnosticReport"
 Description: "Report containing all observation results."
 * identifier 1..1 MS 
 * identifier.value 1..1 MS 
-* identifier obeys medcom-uuidv4
+* identifier.value obeys medcom-uuidv4
 * identifier ^short = "The Diagnostic Report identifier" 
 * status 1..1 MS
 * status from $StatusCodeDiagnosticReport

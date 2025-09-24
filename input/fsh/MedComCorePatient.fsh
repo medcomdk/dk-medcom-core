@@ -1,5 +1,5 @@
 Profile: MedComCorePatient
-Parent: http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
+Parent: DkCorePatient
 Id: medcom-core-patient
 Description: "Patient/citizen resource to use as subject in MedCom communication."
 * id MS

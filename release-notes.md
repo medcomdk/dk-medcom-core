@@ -1,4 +1,4 @@
-- Invariant **medcom-uuidv4** is corrected as it did not work as intended.  
+- Invariants **medcom-uuidv4** and **medcom-uuidv5** is corrected as it did not work as intended.
 
 - MustSupport for the element **deceased** in *MedComCorePatient* is removed, as it is not relevant for all MedCom standards using the profile.  
 

@@ -5,7 +5,7 @@ Title: "MedComCoreObservation"
 Description: "Observation profile intended to be used in MedComHomeCareObservation and MedCom's Laboratory standards."
 * identifier 1..1 MS 
 * identifier.value 1..1 MS 
-* identifier obeys medcom-uuidv4
+* identifier.value obeys medcom-uuidv4
 * identifier ^short = "The Observation identifier" 
 * status 1..1 MS
 * status from $ObsStatusCodes
