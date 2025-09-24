@@ -1,14 +1,10 @@
 {
     "package-id": "medcom.fhir.dk.core",
-    "version": "2.4.0",
-    "path": "http://medcomfhir.dk/ig/core/2.4.0",
+    "version": "3.0.0",
+    "path": "http://medcomfhir.dk/ig/core/3.0.0",
     "status": "release",
-    "sequence": "Release",
+    "sequence": "Release 3.x.x",
     "mode" : "milestone",
-    "first": false,
-    "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-core",
-    "title": "The DK MedCom Core IG",
-    "category": "Frameworks",
-    "introduction": "The MedCom Core Implementation Guide includes core profiles used across MedCom's FHIR-standards.",
-    "descmd": "@release-notes.md"
+    "descmd": "@release-notes.md",
+    "desc": "Fixed uuid invariants, removed Patient.deceased MustSupport, added Dependencies tab, and updated profiles with new cardinalities, MustSupport, and narrative obligations."
 }
