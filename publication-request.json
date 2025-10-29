@@ -1,10 +1,10 @@
 {
     "package-id": "medcom.fhir.dk.core",
-    "version": "3.0.0",
-    "path": "http://medcomfhir.dk/ig/core/3.0.0",
+    "version": "3.0.1",
+    "path": "http://medcomfhir.dk/ig/core/3.0.1",
     "status": "release",
     "sequence": "Release 3.x.x",
     "mode" : "milestone",
     "descmd": "@release-notes.md",
-    "desc": "Fixed uuid invariants, removed Patient.deceased MustSupport, added Dependencies tab, and updated profiles with new cardinalities, MustSupport, and narrative obligations."
+    "desc": "Release 3.0.1 - see release notes"
 }
