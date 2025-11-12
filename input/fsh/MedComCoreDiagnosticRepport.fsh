@@ -15,7 +15,7 @@ Description: "Report containing all observation results."
 * subject 1..1 MS
 * subject only Reference(MedComCorePatient) 
 * subject ^type.aggregation = #bundled
-* issued 1..1 MS
+* issued 0..1 MS
 * result MS
 * result only Reference(MedComCoreObservation)
 * result ^type.aggregation = #bundled
