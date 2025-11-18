@@ -1,4 +1,4 @@
-id: medcom.fhir.dk.core
+id: dk.fhir.ig.dk-medcom-core
 canonical: http://medcomfhir.dk/fhir/core
 name: MedComCore
 title: "Danish MedCom Core"
