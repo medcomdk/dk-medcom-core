@@ -3,8 +3,8 @@
     "version": "2.0.1",
     "path": "http://medcomfhir.dk/ig/core/2.0.1",
     "status": "release",
-    "sequence": "Release 2.x.x",
-    "mode" : "milestone",
+    "sequence": "Release",
+    "mode" : "working",
     "descmd": "@release-notes.md",
     "desc": "2.0.1 release - See release notes for details"
 }
