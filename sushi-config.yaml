@@ -1,9 +1,8 @@
 id: medcom.fhir.dk.core
 canonical: http://medcomfhir.dk/fhir/dk-medcom-core
-
 name: MedComCore
-title: "Danish MedCom Core"
-description: Danish MedCom Core IG
+title: "DK MedCom Core"
+description: DK MedCom Core IG
 status: active
 version: "2.0.1"
 fhirVersion: 4.0.1
