@@ -13,7 +13,7 @@ Description: "Report containing all observation results."
 * code MS
 * code from $DiagnosticReportCode
 * subject 1..1 MS
-* subject only Reference(MedComCorePatient) 
+* subject only Reference(DkCorePatient) 
 * subject ^type.aggregation = #bundled
 * issued 1..1 MS
 * result MS
