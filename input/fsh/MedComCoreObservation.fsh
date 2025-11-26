@@ -13,8 +13,6 @@ Description: "Observation profile intended to be used in MedComHomeCareObservati
 * effective[x] MS 
 * effective[x] ^short = "The date and time of the observation."
 * code MS
-* code.coding.code MS
-* code.coding.system MS
 * subject 1..1 MS
 * subject only Reference(DkCorePatient)
 * subject ^type.aggregation = #bundled
