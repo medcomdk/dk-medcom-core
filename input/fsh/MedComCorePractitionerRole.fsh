@@ -1,5 +1,5 @@
 Profile: MedComCorePractitionerRole
-Parent: DkCorePractitionerRole //PractitionerRole
+Parent: DkCorePractitionerRole
 Id: medcom-core-practitionerrole
 Description: "PractitionerRole resource used to describe the role of a healthcare professional or another actor involved in  citizen or patient care."
 * id MS
