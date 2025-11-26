@@ -10,8 +10,8 @@ Description: "Observation profile intended to be used in MedComHomeCareObservati
 * status 1..1 MS
 * status from $ObsStatusCodes
 * status ^short = "registered | partial | preliminary | final | corrected | cancelled | entered-in-error" 
-* effectiveDateTime MS 
-* effectiveDateTime ^short = "The date and time the sample was taken (Danish: prøvetegningstidspunkt)."
+* effective[x] MS 
+* effective[x] ^short = "The date and time of the observation."
 * code MS
 * code.coding.code MS
 * code.coding.system MS
@@ -19,4 +19,4 @@ Description: "Observation profile intended to be used in MedComHomeCareObservati
 * subject only Reference(DkCorePatient)
 * subject ^type.aggregation = #bundled
 * note MS
-* note ^short = "A comment on the individual result (Danish: Analysekommentar)"
+* note ^short = "A comment on the individual result."
