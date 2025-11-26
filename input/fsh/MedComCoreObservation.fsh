@@ -16,7 +16,7 @@ Description: "Observation profile intended to be used in MedComHomeCareObservati
 * code.coding.code MS
 * code.coding.system MS
 * subject 1..1 MS
-* subject only Reference(MedComCorePatient)
+* subject only Reference(DkCorePatient)
 * subject ^type.aggregation = #bundled
 * note MS
 * note ^short = "A comment on the individual result (Danish: Analysekommentar)"
