@@ -3,6 +3,11 @@ Parent: DiagnosticReport
 Id: medcom-core-diagnosticreport
 Title: "MedComCoreDiagnosticReport"
 Description: "Report containing all observation results."
+* id MS
+* text MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
 * identifier 1..1 MS 
 * identifier.value 1..1 MS 
 * identifier.value obeys medcom-uuidv4

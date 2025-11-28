@@ -3,6 +3,11 @@ Parent: Media
 Id: medcom-core-media
 Title: "MedComMedia"
 Description: "Profile to capture relevant images,audio, video and document as part of the healthcare process"
+* id MS
+* text MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
 * status MS
 * identifier 1..1 MS
 * identifier only MedComAssignedIdentifier

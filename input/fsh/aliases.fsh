@@ -15,3 +15,6 @@ Alias: $DiagnosticReportCode = http://medcomfhir.dk/ig/terminology/ValueSet/MedC
 Alias: $mediastatus = http://hl7.org/fhir/event-status
 Alias: $ProducenID = http://medcomfhir.dk/ig/terminology/CodeSystem/MedComProducentID  
 Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
+
+// ValueAttachment R5 extension used in Observation
+Alias: $obsExtValueAttachment = http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value[x]

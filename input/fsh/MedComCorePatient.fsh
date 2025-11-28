@@ -34,9 +34,12 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * managingOrganization ^definition = "Organization that is the custodian of the patient record. This can e.g. be the sender of a message or responsable for the patients treatment. One of these organizations will always be included in the bundle, why this element is not mandatory to include."
 * identifier and name and telecom and address MS
 * insert ProducerShallPutInNarrative(id)
-* insert ProducerShallPutInNarrative(identifier[cpr])
-* insert ProducerShallPutInNarrative(identifier[x-ecpr])
-* insert ProducerShallPutInNarrative(identifier[d-ecpr])
+* insert ProducerShallPutInNarrative(identifier[cpr].value)
+* insert ProducerShallPutInNarrative(identifier[cpr].system)
+* insert ProducerShallPutInNarrative(identifier[x-ecpr].value)
+* insert ProducerShallPutInNarrative(identifier[x-ecpr].system)
+* insert ProducerShallPutInNarrative(identifier[d-ecpr].value)
+* insert ProducerShallPutInNarrative(identifier[d-ecpr].system)
 * insert ProducerShallPutInNarrative(name[official].family)
 * insert ProducerShallPutInNarrative(name[official].given)
 * insert ProducerShallPutInNarrative(telecom)
