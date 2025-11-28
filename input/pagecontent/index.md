@@ -4,13 +4,8 @@ This Implementation Guide (IG) is provided by MedCom to describe MedCom FHIR &re
 As the MedComCore profiles only specify the base expectations, they are in general made open for additional adjustments. This is chosen to allow further profiling for specific purposes defined by the communicating parties.
 
 The purpose of this IG is to:
-* Define MedComCore profiles that constraints the FHIR resources and datatype for use in MedCom standards:
-    * [MedComCorePatient](StructureDefinition-medcom-core-patient.html)
-    * [MedComCoreOrganization](StructureDefinition-medcom-core-organization.html)
-    * [MedComCoreEncounter](StructureDefinition-medcom-core-encounter.html)
-    * [MedComCoreCareTeam](StructureDefinition-medcom-core-careteam.html)
-    * [MedComCorePractitioner](StructureDefinition-medcom-core-practitioner.html)
-    * [MedComCorePractitionerRole](StructureDefinition-medcom-core-practitionerrole.html)
+* Define MedComCore profiles that constraints the FHIR resources and datatype for use in MedCom standards. See all MedComCore profiles in the "Profiles" tab in the menu.
+
 * Define extensions necessary for local use covering needed Danish concepts, such as a personal identification number for Danish citizens called Central Person Register (CPR-number).
 
 The MedComCore profiles only constitutes a part of a standard. To exchange a complete MedCom standard, profiles from the MedComMessaging, MedComCareCommunication or MedComHospitalNotification shall be used, depended on the purpose of the standard. 
@@ -19,18 +14,15 @@ The MedComCore profiles only constitutes a part of a standard. To exchange a com
 On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
 
 #### Dependencies
-
-This IG has a dependency to [DK-core](https://hl7.dk/fhir/core/) v. 2.0.0, defined by [HL7 Denmark](https://hl7.dk/). This is currently reflected in the MedComCorePatient, MedComCoreOrganization and MedComCorePractitioner which inherit from DkCorePatient, DkCoreOrganization and DkCorePractitioner, respectively. 
+This IG has a dependency to [DK-core](https://hl7.dk/fhir/core/), defined by [HL7 Denmark](https://hl7.dk/). This is currently reflected in the profiles that inherit from DkCore profiles. 
 
 ### Documentation
-
-[More information about MedCom Core](https://medcomdk.github.io/dk-medcom-core/) can be found here. As mentioned, MedCom Core does not alone constitute a standard, why the extra documentation is limited.
+[More information about MedCom Core](https://medcomdk.github.io/dk-medcom-core/) can be found here. As mentioned, MedCom Core does not alone constitute a standard, why the documentation is limited.
 
 ### Governance
-
 FHIR profiles are managed under MedCom: [Source code](https://github.com/medcomdk/dk-medcom-core). 
 
-A description of [governance concerning change management and versioning](https://medcomdk.github.io/MedComLandingPage/#4-change-managment-and-versioning) of MedComs FHIR artefacts, can be found on the link.
+A description of [governance concerning change management and versioning](https://medcomdk.github.io/MedComLandingPage) of MedComs FHIR artefacts, can be found on the link.
 
 #### Quality Assurance Report
 

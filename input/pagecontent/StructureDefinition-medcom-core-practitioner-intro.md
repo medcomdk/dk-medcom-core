@@ -5,4 +5,4 @@ The MedComCorePractitioner is inherited from the [DkCorePractitioner](https://hl
 
 MedComCorePractitioner is broardly defined (just as it is in the original FHIR ressource and DkCorePractitioner), and may be used to define all the professionals involved directly or indirectly in citizen and patient care and well-being.
 
-Please refer to the tab "Snapshot Table(Must support)" below for the definition of the required content of a MedComCorePractitioner.
+Please refer to the tab "Snapshot Table" below for the definition of the required content of a MedComCorePractitioner.
