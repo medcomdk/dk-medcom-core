@@ -9,19 +9,25 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * text.div MS
 * practitioner only Reference(MedComCorePractitioner) 
 * practitioner MS
-* code MS
+* code 1.. MS
 * code from $PractitionerRoles (example)
 * code.coding MS
 * code.text MS
 * organization MS
 * organization only Reference(MedComCoreOrganization) 
 * organization ^type.aggregation = #bundled
+* obeys medcom-core-practitionerrole-code-xor-text
 * insert ProducerShallPutInNarrative(id)
 * insert ProducerShallPutInNarrative(practitioner)
 * insert ProducerShallPutInNarrative(organization)
 * insert ProducerShallPutInNarrative(code.coding)
 * insert ProducerShallPutInNarrative(code.text)
 
+
+Invariant: medcom-core-practitionerrole-code-xor-text
+Description: "There shall exist a practitioner role code or text."
+Severity: #error
+Expression: "code.coding.code.exists() xor code.text.exists()"
 
 Instance: 6057686e-666c-11ed-9022-0242ac120002
 InstanceOf: MedComCorePractitionerRole
