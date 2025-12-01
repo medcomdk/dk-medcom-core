@@ -11,6 +11,8 @@ Description: "A formally recognized organizations within danish healthcare, regi
 * identifier[SOR-ID] ^short = "Sundhedsvæsenets Organisationsregister (SOR) identifier" 
 * identifier[SOR-ID] 1..
 * identifier[SOR-ID] MS
+* identifier[SOR-ID].system MS
+* identifier[SOR-ID].value MS
 * name MS
 * name ^definition = "Name of the organization. Shall be present if known by the sender."
 * insert ProducerShallPutInNarrative(id)
