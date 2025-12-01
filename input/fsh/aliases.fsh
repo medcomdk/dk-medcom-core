@@ -18,3 +18,5 @@ Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
 
 // ValueAttachment R5 extension used in Observation
 Alias: $obsExtValueAttachment = http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value[x]
+
+Alias: $MedComObsExtValueAttachment = http://medcomfhir.dk/ig/core/StructureDefinition/medcom-observation-value-attachment-extension

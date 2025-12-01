@@ -1,3 +1,5 @@
+
+
 Profile: MedComCoreObservation
 Parent: DkCoreObservation
 Id: medcom-core-observation
@@ -18,11 +20,13 @@ Description: "Observation profile."
 * subject ^type.aggregation = #bundled
 * performer 1.. MS
 * performer only Reference(MedComCoreOrganization or MedComCorePractitioner or MedComCorePractitionerRole or MedComCoreCareTeam or DkCorePatient or DkCoreRelatedPerson)
+* extension contains
+    $MedComObsExtValueAttachment named valueAttachment 0..*
 
-// --- R5 valueAttachment via official cross-version extension ---
+/* // --- R5 valueAttachment via official cross-version extension ---
 * extension contains
     $obsExtValueAttachment named valueAttachmentR5 0..*
-* extension[valueAttachmentR5].value[x] only Attachment
+* extension[valueAttachmentR5].value[x] only Attachment */
 
 * insert ProducerShallPutInNarrative(id)
 * insert ProducerShallPutInNarrative(status)
