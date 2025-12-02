@@ -10,6 +10,8 @@ The purpose of this IG is to:
 
 The MedCom Core profiles only constitute a part of a standard. To exchange a complete MedCom standard, profiles from the other Implementation Guides is used.
 
+**XML and JSON:** Note that the document may be represented in either XML or JSON and interconverted between these or have its character encoding changed, all the while remaining the same document. 
+
 #### Terminology
 On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
 
@@ -26,9 +28,9 @@ FHIR profiles are managed under MedCom: [Source code](https://github.com/medcomd
 
 A description of governance and guidance for MedCom's FHIR standards, can be found on the [MedCom Landing Page](https://medcomdk.github.io/MedComLandingPage).
 
-The MedCom FHIR landing page provides a overview of governance requirements that apply to MedCom’s FHIR standards, and some content is followed by practical guidance on how to work with fx the associated implementation guides and tools. The page begins with a clear description of the governance principles that define how MedCom profiles are structured, interpreted and validated. This includes fx the mandatory rules for interpreting MustSupport, the formal validation requirements that implementers must follow, the expectations for producing narrative texts and governance for how MedCom Terminology is versioned. In addition, the governance section outlines the rules for MedCom FHIR Messaging and Document Sharing, including requirements for fx message flow and envelope usage.
+The MedCom FHIR landing page provides a overview of governance requirements that apply to MedCom’s FHIR standards. This includes fx the mandatory rules for interpreting MustSupport, the formal validation requirements that implementers must follow, the expectations for producing narrative texts and governance for how MedCom Terminology is versioned.
 
-The landing page also offers help to developers to understand how to work with MedCom’s FHIR standards. This includes a guide of how to read an Implementation Guide. Users will also find instructions on how to use the required tools, such as validation and how to use Touchstone.
+The landing page also offers help to developers to understand how to work with MedCom’s FHIR standards. This includes a guide of how to read an Implementation Guide. Users will also find instructions on how to use some of the required tools, such as validation setup and how to use Touchstone.
 
 #### Quality Assurance Report
 
