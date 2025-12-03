@@ -8,12 +8,12 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * text.status MS
 * text.div MS
 * practitioner only Reference(MedComCorePractitioner) 
-* practitioner MS
+* practitioner 1.. MS
 * code 1.. MS
 * code from $PractitionerRoles (example)
 * code.coding MS
 * code.text MS
-* organization MS
+* organization 1.. MS
 * organization only Reference(MedComCoreOrganization) 
 * organization ^type.aggregation = #bundled
 * obeys medcom-core-practitionerrole-code-xor-text
@@ -35,6 +35,7 @@ Title: "Example of a PractitionerRole"
 Description: "Example of a practitioner role with a code and reference to a practitioner"
 * code = $PractitionerRole#afdelingslaege
 * practitioner = Reference(e9eacb62-666b-11ed-9022-0242ac120002)
+* organization = Reference(12ee0dde-a672-462f-820d-5efe832d73c9)
 
 
 //Practitioner rolle
@@ -44,3 +45,4 @@ Title: "PractitionerRole with a role and reference to a practitioner"
 Description: "PractitionerRole with a role and reference to a practitioner"
 * practitioner = Reference(e9eacb62-666b-11ed-9022-0242ac120002)
 * code = $PractitionerRole#sygeplejerske
+* organization = Reference(12ee0dde-a672-462f-820d-5efe832d73c9)
