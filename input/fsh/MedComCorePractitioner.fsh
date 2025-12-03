@@ -8,8 +8,11 @@ Description: "Practitioner resource is used to describe a healthcare professiona
 * text.status MS
 * text.div MS
 * name MS
+* name.given MS
+* name.family MS
 * insert ProducerShallPutInNarrative(id)
-* insert ProducerShallPutInNarrative(name)
+* insert ProducerShallPutInNarrative(name.given)
+* insert ProducerShallPutInNarrative(name.family)
 
 Instance: e9eacb62-666b-11ed-9022-0242ac120002
 InstanceOf: MedComCorePractitioner
