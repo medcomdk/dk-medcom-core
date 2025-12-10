@@ -2,7 +2,7 @@ Profile: MedComCorePractitionerRole
 Parent: DkCorePractitionerRole
 Id: medcom-core-practitionerrole
 Description: "PractitionerRole resource used to describe the role of a healthcare professional or another actor involved in  citizen or patient care."
-* id MS
+* id 1.. MS
 * text MS
 * text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
 * text.status MS
@@ -12,6 +12,8 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * code 1.. MS
 * code from $PractitionerRoles (example)
 * code.coding MS
+* code.coding.system 1.. MS
+* code.coding.code 1.. MS
 * code.text MS
 * organization 1.. MS
 * organization only Reference(MedComCoreOrganization) 
@@ -20,7 +22,8 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * insert ProducerShallPutInNarrative(id)
 * insert ProducerShallPutInNarrative(practitioner)
 * insert ProducerShallPutInNarrative(organization)
-* insert ProducerShallPutInNarrative(code.coding)
+* insert ProducerShallPutInNarrative(code.coding.system)
+* insert ProducerShallPutInNarrative(code.coding.code)
 * insert ProducerShallPutInNarrative(code.text)
 
 

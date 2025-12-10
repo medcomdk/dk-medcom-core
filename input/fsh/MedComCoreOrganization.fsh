@@ -16,7 +16,8 @@ Description: "A formally recognized organizations within danish healthcare, regi
 * name MS
 * name ^definition = "Name of the organization. Shall be present if known by the sender."
 * insert ProducerShallPutInNarrative(id)
-* insert ProducerShallPutInNarrative(identifier[SOR-ID])
+* insert ProducerShallPutInNarrative(identifier[SOR-ID].system)
+* insert ProducerShallPutInNarrative(identifier[SOR-ID].value)
 * insert ProducerShallPutInNarrative(name)
 
 Instance: 12ee0dde-a672-462f-820d-5efe832d73c9

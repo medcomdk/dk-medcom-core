@@ -4,4 +4,7 @@ Id: medcom-messaging-contactpoint
 Description: "The datatype ContactPoint is specified for use in MedCom messages."
 * system MS
 * value MS
-* use MS 
+* use MS
+* insert ProducerShallPutInNarrative(system)
+* insert ProducerShallPutInNarrative(value)
+* insert ProducerShallPutInNarrative(use)

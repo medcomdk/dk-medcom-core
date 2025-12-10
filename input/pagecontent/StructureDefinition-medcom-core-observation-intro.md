@@ -1,5 +1,7 @@
 ### Scope and use
-This profile is a MedCom Core profile for observations and is intended to represent observations for a variety cases including for example: 
+This profile is a MedCom Core profile for observation measurements and simple assertions made about a patient.
+
+It is intended to represent observations for a variety cases including for example: 
 * laboratory observations
 * observations performed by a municipal acute care team
 * EKG study data
