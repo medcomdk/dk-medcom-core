@@ -4,7 +4,7 @@ name: MedComCore
 title: "DK MedCom Core"
 description: This IG includes core profiles defined by MedCom. These profiles are used in MedCom's FHIR standards
 status: active
-version: 4.0.0-test
+version: 4.0.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: release
