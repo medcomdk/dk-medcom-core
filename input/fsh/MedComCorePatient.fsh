@@ -17,8 +17,9 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * identifier[d-ecpr] MS
 * identifier[d-ecpr].system MS
 * identifier[d-ecpr].value MS
-* name 1..
+* name 1.. MS
 * name[official] 1.. MS
+* name[official].use MS
 * name[official].given MS
 * name[official].given ^definition = "Shall be present if the official given name of the patient is known, danish \"fornavn\". "
 * name[official].family MS
@@ -48,6 +49,7 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * insert ProducerShallPutInNarrative(identifier[d-ecpr].system)
 * insert ProducerShallPutInNarrative(name[official].family)
 * insert ProducerShallPutInNarrative(name[official].given)
+* insert ProducerShallPutInNarrative(name[official].use)
 //* insert ProducerShallPutInNarrative(telecom)
 //* insert ProducerShallPutInNarrative(address.line)
 //* insert ProducerShallPutInNarrative(address.city)
