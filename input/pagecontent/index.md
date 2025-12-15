@@ -18,8 +18,6 @@ On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced 
 #### Dependencies
 This IG has a dependency to [DK-core](https://hl7.dk/fhir/core/), defined by [HL7 Denmark](https://hl7.dk/). This is currently reflected in the profiles that inherit from DkCore profiles.
 
-Note that any MedCom Core profile referencing a Patient resource uses DkCorePatient as its required reference. This is because MedComDocumentPatient cannot inherit from MedComCorePatient due to differing requirements, and their closest shared parent is therefore DkCorePatient. In message-based MedCom standards, MedComCorePatient **MUST** always be used as the Patient resource, whereas in document-sharing-based MedCom standards, the required Patient profile is MedComDocumentPatient — even though DkCorePatient appears as the referenced profile in the core profiles within this Implementation Guide.
-
 ### Documentation
 [More information about MedCom Core](https://medcomdk.github.io/dk-medcom-core/) can be found here. As mentioned, MedCom Core does not alone constitute a standard, why the documentation is limited.
 

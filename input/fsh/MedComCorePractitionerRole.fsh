@@ -8,12 +8,12 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * text.status MS
 * text.div MS
 * practitioner only Reference(MedComCorePractitioner) 
-* practitioner 1.. MS
-* code 1.. MS
+* practitioner MS
+* code  MS
 * code from $PractitionerRoles (example)
 * code.coding MS
-* code.coding.system 1.. MS
-* code.coding.code 1.. MS
+* code.coding.system MS
+* code.coding.code MS
 * code.text MS
 * organization 1.. MS
 * organization only Reference(MedComCoreOrganization) 
@@ -28,9 +28,9 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 
 
 Invariant: medcom-core-practitionerrole-code-xor-text
-Description: "There shall exist a practitioner role code or text."
+Description: "There shall exist a practitioner role code.coding or text if code is present."
 Severity: #error
-Expression: "code.coding.code.exists() xor code.text.exists()"
+Expression: "code.exists() implies (code.coding.where(system.exists() and code.exists()).exists() xor code.text.exists())"
 
 Instance: 6057686e-666c-11ed-9022-0242ac120002
 InstanceOf: MedComCorePractitionerRole

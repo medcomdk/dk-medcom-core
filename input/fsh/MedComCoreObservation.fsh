@@ -16,10 +16,10 @@ Description: "Observation profile."
 * effective[x] ^short = "The date and time of the observation."
 * code MS
 * subject 1..1 MS
-* subject only Reference(DkCorePatient)
+* subject only Reference(MedComCorePatient)
 * subject ^type.aggregation = #bundled
 * performer 1.. MS
-* performer only Reference(MedComCoreOrganization or MedComCorePractitioner or MedComCorePractitionerRole or MedComCoreCareTeam or DkCorePatient or DkCoreRelatedPerson)
+* performer only Reference(MedComCoreOrganization or MedComCorePractitioner or MedComCorePractitionerRole or MedComCoreCareTeam or MedComCorePatient or DkCoreRelatedPerson)
 * extension contains
     $MedComObsExtValueAttachment named valueAttachment 0..*
 

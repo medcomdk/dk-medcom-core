@@ -25,7 +25,7 @@ Description: "An interaction between a patient/citizen and healthcare provider(s
 * episodeOfCare[lpr3identifier].identifier only Lpr3Identifier
 * episodeOfCare[lpr3identifier].identifier ^definition = "Shall contain the id of the episode of care reported to the Danish National Patient Registry if known"
 * subject 1.. MS
-* subject only Reference(DkCorePatient)
+* subject only Reference(MedComCorePatient)
 * subject ^type.aggregation = #bundled
 * account ..0
 * serviceProvider only Reference(MedComCoreOrganization)

@@ -12,7 +12,7 @@ Description: "Profile to capture relevant images,audio, video and document as pa
 //* identifier 1..1 MS
 //* identifier only MedComAssignedIdentifier
 * operator 0..1 //MS
-* operator only Reference(MedComCorePractitioner or MedComCorePractitionerRole or MedComCoreOrganization or MedComCoreCareTeam or DkCorePatient or Device or DkCoreRelatedPerson)
+* operator only Reference(MedComCorePractitioner or MedComCorePractitionerRole or MedComCoreOrganization or MedComCoreCareTeam or MedComCorePatient or Device or DkCoreRelatedPerson)
 * content MS
 //* content.data MS
 //* content.contentType MS
