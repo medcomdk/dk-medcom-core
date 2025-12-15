@@ -28,7 +28,7 @@ A description of governance and guidance for MedCom's FHIR standards, can be fou
 
 The MedCom FHIR landing page provides a overview of governance requirements that apply to MedCom’s FHIR standards. This includes fx the mandatory rules for interpreting MustSupport, the formal validation requirements that implementers must follow, the expectations for producing narrative texts and governance for how MedCom Terminology is versioned.
 
-The landing page also offers help to developers to understand how to work with MedCom’s FHIR standards. This includes a guide of how to read an Implementation Guide. Users will also find instructions on how to use some of the required tools, such as validation setup and how to use Touchstone.
+The landing page also offers help to developers to understand how to work with MedCom’s FHIR standards. This includes a guide of how to read an Implementation Guide. Users will also find instructions on how to use some of the FHIR tools, such as validation setup.
 
 #### Quality Assurance Report
 
