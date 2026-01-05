@@ -25,7 +25,7 @@ Description: "Patient/citizen resource to use as subject in MedCom communication
 * name[official].family MS
 * name[official].family ^definition = "Shall always be present, danish \"efternavn\". "
 * telecom ^definition = "Shall contain value, system and use if these information are known."
-* telecom only MedComMessagingContactPoint
+//* telecom only MedComMessagingContactPoint
 //* deceased[x] MS
 //* deceased[x] ^definition = "Shall contain information if the patient is deceased and it is relevant in the given context"
 //* deceased[x] ^short = "Shall only be sent if the patient is deceased or the status change from deceased to non-deceased"
