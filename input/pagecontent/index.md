@@ -10,7 +10,7 @@ The purpose of this IG is to:
 
 The MedCom Core profiles only constitute a part of a standard. To exchange a complete MedCom standard, profiles from the other Implementation Guides is used.
 
-**XML and JSON:** Note that the document may be represented in either XML or JSON and interconverted between these or have its character encoding changed, all the while remaining the same document. 
+**XML and JSON:** Note that the instances of the profiles may be represented in either XML or JSON and interconverted between these or have its character encoding changed, all the while remaining the same instance. 
 
 #### Terminology
 On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
