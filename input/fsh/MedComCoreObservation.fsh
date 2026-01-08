@@ -1,12 +1,10 @@
-
-
 Profile: MedComCoreObservation
 Parent: DkCoreObservation
 Id: medcom-core-observation
 Title: "MedComCoreObservation"
 Description: "Observation profile."
 * id 1.. MS
-* text MS
+* text 1.. MS
 * text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
 * text.status MS
 * text.div MS

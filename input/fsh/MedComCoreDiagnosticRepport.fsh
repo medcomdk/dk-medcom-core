@@ -4,7 +4,7 @@ Id: medcom-core-diagnosticreport
 Title: "MedComCoreDiagnosticReport"
 Description: "Report containing all observation results."
 * id 1.. MS
-* text MS
+* text 1.. MS
 * text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
 * text.status MS
 * text.div MS

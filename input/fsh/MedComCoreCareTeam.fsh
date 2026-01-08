@@ -3,7 +3,7 @@ Parent: CareTeam
 Id: medcom-core-careteam
 Description: "Careteam participating in the care of a patient"
 * id 1.. MS
-* text MS
+* text 1.. MS
 * text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
 * text.status MS
 * text.div MS

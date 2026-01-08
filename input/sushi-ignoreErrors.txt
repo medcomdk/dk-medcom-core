@@ -1,0 +1,12 @@
+== Suppressed errors ==
+# Link to sushi desciption: https://fshschool.org/docs/sushi/project/#using-the-hl7-ig-publisher-and-auto-builder
+# Suppresses this error as IG Publisher autogenerates narratives after SUSHI has run.
+Element Patient.text has minimum cardinality 1 but occurs 0 time(s).
+Element CareTeam.text has minimum cardinality 1 but occurs 0 time(s).
+Element DiagnosticReport.text has minimum cardinality 1 but occurs 0 time(s).
+Element Encounter.text has minimum cardinality 1 but occurs 0 time(s).
+Element Media.text has minimum cardinality 1 but occurs 0 time(s).
+Element Observation.text has minimum cardinality 1 but occurs 0 time(s).
+Element Organization.text has minimum cardinality 1 but occurs 0 time(s).
+Element Practitioner.text has minimum cardinality 1 but occurs 0 time(s).
+Element PractitionerRole.text has minimum cardinality 1 but occurs 0 time(s).
