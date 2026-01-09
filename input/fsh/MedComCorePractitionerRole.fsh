@@ -12,8 +12,8 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * code  MS
 * code from $PractitionerRoles (example)
 * code.coding MS
-* code.coding.system MS
-* code.coding.code MS
+* code.coding.system 1.. MS
+* code.coding.code 1.. MS
 * code.text MS
 * organization 1.. MS
 * organization only Reference(MedComCoreOrganization) 
