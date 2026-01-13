@@ -7,22 +7,20 @@ The detailed, profile-specific changes are listed in the sections below. In addi
 
 ---
 
-## MedCom Core
-
-### 1. lpr3-Identifier
+## 1. lpr3-Identifier (used in medcom-core-encounter)
 - `system` changed to `1..1 MS` and narrative obligation added.
 - `value` changed to `1..1 MS` and narrative obligation added.
 
-### 2. medcom-core-careteam
+## 2. medcom-core-careteam
 - `id` and `text` changed to `1..1 MS`.
 - `managingOrganization` changed to `1..1 MS`.
 
-### 3. medcom-core-contact-extension
+## 3. medcom-core-contact-extension
 - Narrative obligation added to `valueContactPoint.system`.
 - Narrative obligation added to `valueContactPoint.value`.
 - Narrative obligation added to `valueContactPoint.use`.
 
-### 4. medcom-core-diagnosticreport
+## 4. medcom-core-diagnosticreport
 - `identifier` requirements removed.
 - `id` changed to `1..1 MS`.
 - `text` changed to `1..1 MS`. `text.status` and `text.div` added MS.
@@ -35,7 +33,7 @@ The detailed, profile-specific changes are listed in the sections below. In addi
 - `conclusion` requirements removed.
 - Narrative obligation added to `id`, `status`, `code`, and `subject`.
 
-### 5. medcom-core-encounter
+## 5. medcom-core-encounter
 - `id` changed to `1..1 MS`.
 - `text` changed to `1..1 MS`.
 - `episodeOfCare.identifier.system` changed to `1..1 MS`.
@@ -43,7 +41,7 @@ The detailed, profile-specific changes are listed in the sections below. In addi
 - Narrative obligation added to `episodeOfCare.identifier.system` and `episodeOfCare.identifier.value`.
 - Narrative obligation removed from `episodeOfCare.identifier` and `episodeOfCare[lpr3Identifier].identifier`.
 
-### 6. medcom-core-media
+## 6. medcom-core-media
 - `id` changed to `1..1 MS`.
 - `text` changed to `1..1 MS`. `text.status` and `text.div` added MS.
 - Narrative obligation added to `id` and `status`.
@@ -53,7 +51,7 @@ The detailed, profile-specific changes are listed in the sections below. In addi
   `MedComCoreCareTeam`, `MedComCorePatient`, `Device`, or `DkCoreRelatedPerson`.
 - `content` added MS. Requirements for underlying content elements removed.
 
-### 7. medcom-core-observation
+## 7. medcom-core-observation
 - `identifier` requirements removed.
 - `id` changed to `1..1 MS`.
 - `text` changed to `1..1 MS`. `text.status` and `text.div` added MS.
@@ -65,7 +63,7 @@ The detailed, profile-specific changes are listed in the sections below. In addi
 - `valueAttachment` extension added.
 - Narrative obligation added to `id`, `status`, `subject`, and `performer`.
 
-### 8. medcom-core-organization
+## 8. medcom-core-organization
 - `id` changed to `1..1 MS`.
 - `text` changed to `1..1 MS`.
 - `identifier` added MS.
@@ -73,7 +71,7 @@ The detailed, profile-specific changes are listed in the sections below. In addi
 - Narrative obligation removed from `identifier[SOR-ID]`.
 - Narrative obligation added to `identifier[SOR-ID].system`, `identifier[SOR-ID].value`, and `id`.
 
-### 9. medcom-core-patient
+## 9. medcom-core-patient
 - `id` changed to `1..1 MS`.
 - `text` changed to `1..1 MS`.
 - `identifier[cpr].system`, `identifier[cpr].value`,  
@@ -89,7 +87,7 @@ The detailed, profile-specific changes are listed in the sections below. In addi
   `name[official].given`, `name[official].family`, and `name[official].use`.
 - Narrative obligation removed from `identifier[cpr]`, `identifier[x-ecpr]`, and `identifier[d-ecpr]`.
 
-### 10. medcom-core-practitioner
+## 10. medcom-core-practitioner
 - `id` changed to `1..1 MS`.
 - `text` changed to `1..1 MS`.
 - `name.given` and `name.family` added MS.
@@ -97,7 +95,7 @@ The detailed, profile-specific changes are listed in the sections below. In addi
 - Narrative obligation removed from `name`.
 - Narrative obligation added to `name.given` and `name.family`.
 
-### 11. medcom-core-practitionerrole
+## 11. medcom-core-practitionerrole
 - Parent changed to `DkCorePractitionerRole`.
 - `id` changed to `1..1 MS`.
 - `text` changed to `1..1 MS`.
@@ -107,8 +105,8 @@ The detailed, profile-specific changes are listed in the sections below. In addi
   `code.coding.system`, `code.coding.code`, and `code.text`.
 - Invariant `medcom-core-practitionerrole-code-xor-text` added.
 
-### 12. medcom-messaging-contactpoint
+## 12. medcom-messaging-contactpoint
 - Profile removed.
 
-### 13. medcom-observation-value-attachment-extension
+## 13. medcom-observation-value-attachment-extension
 - Extension added to represent attachments in observations.
