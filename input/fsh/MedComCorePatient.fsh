@@ -2,47 +2,58 @@ Profile: MedComCorePatient
 Parent: DkCorePatient
 Id: medcom-core-patient
 Description: "Patient/citizen resource to use as subject in MedCom communication."
-* id MS
-* text MS
+* id 1.. MS
+* text 1.. MS
 * text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
 * text.status MS
 * text.div MS
 * identifier[cpr] ^short = "Unique identification number for all citizens in Denmark, called civil person register (CPR-number)."
 * identifier[cpr] MS
+* identifier[cpr].system MS
+* identifier[cpr].value MS
 * identifier[x-ecpr] MS
+* identifier[x-ecpr].system MS
+* identifier[x-ecpr].value MS
 * identifier[d-ecpr] MS
-* name 1..
+* identifier[d-ecpr].system MS
+* identifier[d-ecpr].value MS
+* name 1.. MS
 * name[official] 1.. MS
+* name[official].use MS
 * name[official].given MS
 * name[official].given ^definition = "Shall be present if the official given name of the patient is known, danish \"fornavn\". "
 * name[official].family MS
 * name[official].family ^definition = "Shall always be present, danish \"efternavn\". "
 * telecom ^definition = "Shall contain value, system and use if these information are known."
-* telecom only MedComMessagingContactPoint
+//* telecom only MedComMessagingContactPoint
 //* deceased[x] MS
 //* deceased[x] ^definition = "Shall contain information if the patient is deceased and it is relevant in the given context"
 //* deceased[x] ^short = "Shall only be sent if the patient is deceased or the status change from deceased to non-deceased"
 * address ^definition = "Shall contain all known, relevant addresses of the patient"
-* address.line MS
+//* address.line MS
 * address.line ^definition = "Shall contain the known information about the street name, number etc. to provide an exact address"
-* address.city MS
+//* address.city MS
 * address.city ^definition = "Shall be present if the city is known"
-* address.postalCode MS
+//* address.postalCode MS
 * address.postalCode ^definition = "Shall be present if the postal code is known"
 * managingOrganization only Reference(MedComCoreOrganization)
 * managingOrganization ^type.aggregation = #bundled
 * managingOrganization ^definition = "Organization that is the custodian of the patient record. This can e.g. be the sender of a message or responsable for the patients treatment. One of these organizations will always be included in the bundle, why this element is not mandatory to include."
-* identifier and name and telecom and address MS
+* identifier and name MS //and telecom and address MS
 * insert ProducerShallPutInNarrative(id)
-* insert ProducerShallPutInNarrative(identifier[cpr])
-* insert ProducerShallPutInNarrative(identifier[x-ecpr])
-* insert ProducerShallPutInNarrative(identifier[d-ecpr])
+* insert ProducerShallPutInNarrative(identifier[cpr].value)
+* insert ProducerShallPutInNarrative(identifier[cpr].system)
+* insert ProducerShallPutInNarrative(identifier[x-ecpr].value)
+* insert ProducerShallPutInNarrative(identifier[x-ecpr].system)
+* insert ProducerShallPutInNarrative(identifier[d-ecpr].value)
+* insert ProducerShallPutInNarrative(identifier[d-ecpr].system)
 * insert ProducerShallPutInNarrative(name[official].family)
 * insert ProducerShallPutInNarrative(name[official].given)
-* insert ProducerShallPutInNarrative(telecom)
-* insert ProducerShallPutInNarrative(address.line)
-* insert ProducerShallPutInNarrative(address.city)
-* insert ProducerShallPutInNarrative(address.postalCode)
+* insert ProducerShallPutInNarrative(name[official].use)
+//* insert ProducerShallPutInNarrative(telecom)
+//* insert ProducerShallPutInNarrative(address.line)
+//* insert ProducerShallPutInNarrative(address.city)
+//* insert ProducerShallPutInNarrative(address.postalCode)
 
 Instance: 733cef33-3626-422b-955d-d506aaa65fe1
 InstanceOf: MedComCorePatient

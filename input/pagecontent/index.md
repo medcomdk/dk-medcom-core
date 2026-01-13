@@ -1,36 +1,34 @@
 ### Introduction
 
-This Implementation Guide (IG) is provided by MedCom to describe MedCom FHIR &reg;&copy; Core profiles (Dansk: Kerneprofiler) used across MedComs standards. This IG represents the base expectation when describing a Patient, Encounter, Practitioner or Organization when exchanging information within Danish healthcare.
+This Implementation Guide (IG) is provided by MedCom to describe MedCom's FHIR &reg;&copy; Core profiles (Dansk: Kerneprofiler) used across MedComs standards. This IG represents the base expectation when describing fx a Patient, an Encounter, a Practitioner or an Organization when exchanging information within the Danish healthcare system.
 As the MedComCore profiles only specify the base expectations, they are in general made open for additional adjustments. This is chosen to allow further profiling for specific purposes defined by the communicating parties.
 
 The purpose of this IG is to:
-* Define MedComCore profiles that constraints the FHIR resources and datatype for use in MedCom standards:
-    * [MedComCorePatient](StructureDefinition-medcom-core-patient.html)
-    * [MedComCoreOrganization](StructureDefinition-medcom-core-organization.html)
-    * [MedComCoreEncounter](StructureDefinition-medcom-core-encounter.html)
-    * [MedComCoreCareTeam](StructureDefinition-medcom-core-careteam.html)
-    * [MedComCorePractitioner](StructureDefinition-medcom-core-practitioner.html)
-    * [MedComCorePractitionerRole](StructureDefinition-medcom-core-practitionerrole.html)
+* Define MedCom Core profiles that constraints the FHIR resources and datatypes for use in MedCom standards. See all MedComCore profiles in the "Profiles" tab in the menu.
+
 * Define extensions necessary for local use covering needed Danish concepts, such as a personal identification number for Danish citizens called Central Person Register (CPR-number).
 
-The MedComCore profiles only constitutes a part of a standard. To exchange a complete MedCom standard, profiles from the MedComMessaging, MedComCareCommunication or MedComHospitalNotification shall be used, depended on the purpose of the standard. 
+The MedCom Core profiles only constitute a part of a standard. To exchange a complete MedCom standard, profiles from the other Implementation Guides is used.
+
+**XML and JSON:** Note that the instances of the profiles may be represented in either XML or JSON and interconverted between these or have its character encoding changed, all the while remaining the same instance. 
 
 #### Terminology
 On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
 
 #### Dependencies
-
-This IG has a dependency to [DK-core](https://hl7.dk/fhir/core/) v. 2.0.0, defined by [HL7 Denmark](https://hl7.dk/). This is currently reflected in the MedComCorePatient, MedComCoreOrganization and MedComCorePractitioner which inherit from DkCorePatient, DkCoreOrganization and DkCorePractitioner, respectively. 
+This IG has a dependency to [DK-core](https://hl7.dk/fhir/core/), defined by [HL7 Denmark](https://hl7.dk/). This is currently reflected in the profiles that inherit from DkCore profiles.
 
 ### Documentation
+[More information about MedCom Core](https://medcomdk.github.io/dk-medcom-core/) can be found here. As mentioned, MedCom Core does not alone constitute a standard, why the documentation is limited.
 
-[More information about MedCom Core](https://medcomdk.github.io/dk-medcom-core/) can be found here. As mentioned, MedCom Core does not alone constitute a standard, why the extra documentation is limited.
-
-### Governance
-
+### Governance and guidance
 FHIR profiles are managed under MedCom: [Source code](https://github.com/medcomdk/dk-medcom-core). 
 
-A description of [governance concerning change management and versioning](https://medcomdk.github.io/MedComLandingPage/#4-change-managment-and-versioning) of MedComs FHIR artefacts, can be found on the link.
+A description of governance and guidance for MedCom's FHIR standards, can be found on the [MedCom Landing Page](https://medcomdk.github.io/MedComLandingPage).
+
+The MedCom FHIR landing page provides a overview of governance requirements that apply to MedCom’s FHIR standards. This includes fx the mandatory rules for interpreting MustSupport, the formal validation requirements that implementers must follow, the expectations for producing narrative texts and governance for how MedCom Terminology is versioned.
+
+The landing page also offers help to developers to understand how to work with MedCom’s FHIR standards. This includes a guide of how to read an Implementation Guide. Users will also find instructions on how to use some of the FHIR tools, such as validation setup.
 
 #### Quality Assurance Report
 

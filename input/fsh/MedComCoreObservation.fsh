@@ -2,21 +2,31 @@ Profile: MedComCoreObservation
 Parent: DkCoreObservation
 Id: medcom-core-observation
 Title: "MedComCoreObservation"
-Description: "Observation profile intended to be used in MedComHomeCareObservation and MedCom's Laboratory standards."
-* identifier 1..1 MS 
-* identifier.value 1..1 MS 
-* identifier.value obeys medcom-uuidv4
-* identifier ^short = "The Observation identifier" 
+Description: "Observation profile."
+* id 1.. MS
+* text 1.. MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
 * status 1..1 MS
 * status from $ObsStatusCodes
 * status ^short = "registered | partial | preliminary | final | corrected | cancelled | entered-in-error" 
-* effectiveDateTime MS 
-* effectiveDateTime ^short = "The date and time the sample was taken (Danish: prøvetegningstidspunkt)."
+* effective[x] ^short = "The date and time of the observation."
 * code MS
-* code.coding.code MS
-* code.coding.system MS
 * subject 1..1 MS
 * subject only Reference(MedComCorePatient)
 * subject ^type.aggregation = #bundled
-* note MS
-* note ^short = "A comment on the individual result (Danish: Analysekommentar)"
+* performer 1.. MS
+* performer only Reference(MedComCoreOrganization or MedComCorePractitioner or MedComCorePractitionerRole or MedComCoreCareTeam or MedComCorePatient or DkCoreRelatedPerson)
+* extension contains
+    $MedComObsExtValueAttachment named valueAttachment 0..*
+
+/* // --- R5 valueAttachment via official cross-version extension ---
+* extension contains
+    $obsExtValueAttachment named valueAttachmentR5 0..*
+* extension[valueAttachmentR5].value[x] only Attachment */
+
+* insert ProducerShallPutInNarrative(id)
+* insert ProducerShallPutInNarrative(status)
+* insert ProducerShallPutInNarrative(subject)
+* insert ProducerShallPutInNarrative(performer)

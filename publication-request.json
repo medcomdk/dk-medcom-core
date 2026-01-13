@@ -1,6 +1,6 @@
 {
     "package-id": "medcom.fhir.dk.core",
-    "version": "3.0.1",
+    "version": "3.0.2-dev",
     "path": "http://medcomfhir.dk/ig/core/3.0.1",
     "status": "release",
     "sequence": "Release 3.x.x",

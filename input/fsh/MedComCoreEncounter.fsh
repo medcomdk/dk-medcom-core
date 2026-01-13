@@ -2,8 +2,8 @@ Profile: MedComCoreEncounter
 Parent: Encounter
 Id: medcom-core-encounter
 Description: "An interaction between a patient/citizen and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient/citizen."
-* id MS
-* text MS
+* id 1.. MS
+* text 1.. MS
 * text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
 * text.status MS
 * text.div MS
@@ -12,6 +12,8 @@ Description: "An interaction between a patient/citizen and healthcare provider(s
 * class from $EncounterClassVS
 * episodeOfCare MS
 * episodeOfCare.identifier MS
+* episodeOfCare.identifier.system 1..1 MS
+* episodeOfCare.identifier.value 1..1 MS
 * episodeOfCare ^slicing.discriminator.type = #value
 * episodeOfCare ^slicing.discriminator.path = "identifier.system"
 * episodeOfCare ^slicing.rules = #open
@@ -33,8 +35,8 @@ Description: "An interaction between a patient/citizen and healthcare provider(s
 * insert ProducerShallPutInNarrative(status)
 * insert ProducerShallPutInNarrative(class)
 * insert ProducerShallPutInNarrative(subject)
-* insert ProducerShallPutInNarrative(episodeOfCare.identifier)
-* insert ProducerShallPutInNarrative(episodeOfCare[lpr3identifier].identifier)
+* insert ProducerShallPutInNarrative(episodeOfCare.identifier.system)
+* insert ProducerShallPutInNarrative(episodeOfCare.identifier.value)
 * insert ProducerShallPutInNarrative(serviceProvider)
 
 Instance: 6220b42d-c4fd-4c77-bae7-78e7d890dc8d

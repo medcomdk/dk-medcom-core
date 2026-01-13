@@ -3,10 +3,12 @@ Parent: Identifier
 Id: lpr3-Identifier
 Title: "LPR3 Identifier"
 Description: "Identifier holding a LPR3 identifier"
-* system 1..
+* system 1.. MS
 * system = "https://www.esundhed.dk/Registre/Landspatientregisteret" (exactly) 
-* value 1..
+* value 1.. MS
 * value obeys uuidv5
+* insert ProducerShallPutInNarrative(system)
+* insert ProducerShallPutInNarrative(value)
 
 Invariant: uuidv5
 Description: "LPR3 episodeOfCare identifiers must conform to a UUIDv5"

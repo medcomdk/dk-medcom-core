@@ -10,7 +10,9 @@ Description: "Extension that contains the contact information"
 * valueContactPoint.value ^short = "Shall contain a relevant telephone number."
 * valueContactPoint.system = #phone
 * valueContactPoint.system MS
-
+* insert ProducerShallPutInNarrative(valueContactPoint.system)
+* insert ProducerShallPutInNarrative(valueContactPoint.value)
+* insert ProducerShallPutInNarrative(valueContactPoint.use)
 
 Invariant: medcom-core-contact
 Description: "The telephone number may include + and numbers from 0-9"
