@@ -22,4 +22,4 @@ The EpisodeOfCare identifier is used to technically connect several encounters c
 
 It is both possible to use a [Landspatientregisteret](https://www.esundhed.dk/Registre/Landspatientregisteret)-identifier (called LPR3-identifier) and a locally defined identifier as the EpisodeOfCare-identifier. 
 
-Whether a LPR3-identifier or a locally defined identifier is used, it **SHALL** be an UUID. The LPR3-identifier **SHALL** obey a rule stating that the UUID **SHALL** be of version 5, [here more information about the LPR3-identifier can be found](https://scandihealth.github.io/lpr3-docs/). Using a locally defined identifier, a system for the identifier **SHALL** be added. 
+Whether an LPR3-identifier or a locally defined identifier is used, it **SHALL** be an UUID. The LPR3-identifier **SHALL** obey a rule stating that the UUID **SHALL** be of version 5, [here more information about the LPR3-identifier can be found](https://scandihealth.github.io/lpr3-docs/). Using a locally defined identifier, a system for the identifier **SHALL** be added. 

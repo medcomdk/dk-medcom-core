@@ -9,7 +9,7 @@ Description: "PractitionerRole resource used to describe the role of a healthcar
 * text.div MS
 * practitioner only Reference(MedComCorePractitioner) 
 * practitioner MS
-* code  MS
+* code MS
 * code from $PractitionerRoles (example)
 * code.coding MS
 * code.coding.system 1.. MS

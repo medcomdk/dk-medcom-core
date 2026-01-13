@@ -30,7 +30,7 @@ Description: "Report containing all observation results."
 * media.link only Reference(MedComCoreMedia) 
 * media ^short = "Attachments that are relevant for assessment of the patient's condition."
 //* media.link MS
-* conclusion 0..1 //MS
+//* conclusion 0..1 //MS
 //* conclusion ^short = "A comment relevant for all observations in the report."
 
 * insert ProducerShallPutInNarrative(id)
