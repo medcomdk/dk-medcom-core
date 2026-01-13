@@ -1,7 +1,5 @@
->Note: This profile is developed to be part of a production trial of the communication between the general practitioner and municipal acute care team.
-
 #### Scope and usage
-This profile is intended to be uses in  MedCom HomeCareObservation and MedCom's Laboratory standards. 
+This profile is intended to be uses as a diagnostic report in MedCom standards. 
 
 #### Attachments 
 In MedComCoreDiagnosticReport it is allowed to include attachments. When sending an attachment diagnosticReport.media shall be used. The DiagnosticReport.media.link reference to MedComCoreMedia resource where the atachment shall be added. 
