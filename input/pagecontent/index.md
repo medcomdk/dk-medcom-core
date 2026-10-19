@@ -1,6 +1,6 @@
 ### Introduction
 
-This Implementation Guide (IG) is provided by MedCom to describe MedCom's FHIR &reg;&copy; Core profiles (Dansk: Kerneprofiler) used across MedComs standards. This IG represents the base expectation when describing fx a Patient, an Encounter, a Practitioner or an Organization when exchanging information within the Danish healthcare system.
+GODDAG MED DIG This Implementation Guide (IG) is provided by MedCom to describe MedCom's FHIR &reg;&copy; Core profiles (Dansk: Kerneprofiler) used across MedComs standards. This IG represents the base expectation when describing fx a Patient, an Encounter, a Practitioner or an Organization when exchanging information within the Danish healthcare system.
 As the MedComCore profiles only specify the base expectations, they are in general made open for additional adjustments. This is chosen to allow further profiling for specific purposes defined by the communicating parties.
 
 The purpose of this IG is to:
