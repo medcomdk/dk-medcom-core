@@ -4,7 +4,7 @@ name: MedComCore
 title: "DK MedCom Core"
 description: This IG includes core profiles defined by MedCom. These profiles are used in MedCom's FHIR standards
 status: active
-version: 4.0.0
+version: 4.0.1
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: release
@@ -19,6 +19,15 @@ dependencies:
 
 menu:
   Home: index.html
+  Implementation:
+    General governance: general-governance.html
+    Test and certification: test-and-certification.html
+    Getting started with ITB: itb-getting-started.html
+    Versioning and change management: versioning-change-management.html
+  FHIR Guidance:
+    FHIR Validation Governance: validation.html
+    New to FHIR: new-to-fhir.html
+    FAQ: faq.html
   Profiles: profiles.html
   Extensions: extensions.html
   Artifacts: artifacts.html
@@ -26,8 +35,11 @@ menu:
     Table of Contents: toc.html
     Downloads: downloads.html
     Dependencies: dependencies.html
+  External Links:
+    Terminology governance: https://medcomfhir.dk/ig/terminology/terminology-governance.html
 
 parameters:
+  path-history: history.html
   apply-contact: true
   apply-jurisdiction: true
   apply-publisher: true
