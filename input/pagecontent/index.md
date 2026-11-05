@@ -1,7 +1,7 @@
 ## Introduction
 
 This Implementation Guide (IG) contains various Core (essential) profiles used across most, if not all, MedCom FHIR standards/IGs'. These profiles can be found in the [Profiles](profiles.html) menu.
-Furthermore this IG also defines the shared requirements for MustSupport, narratives, validation, testing, and versioning. The [Terminology IG](https://medcomfhir.dk/ig/terminology/) owns the [terminology governance](https://medcomfhir.dk/ig/terminology/terminology-governance.html), including independent terminology versions and lifecycle dates.
+Furthermore this IG also defines the shared requirements for MustSupport, narratives, validation, testing, and versioning. The [Terminology IG](https://medcomfhir.dk/ig/terminology/) owns the terminology governance including independent terminology versions and lifecycle dates.
 
 **XML and JSON:** Note that the instances/examples of the profiles are represented in either XML or JSON (sometimes even TTL). Their character encoding will change according to the data format, but they remain the same instance.
 

@@ -29,4 +29,4 @@ In Denmark, we have a national HL7 affiliate, called <a href="https://hl7.dk/" t
 
 <a href="#Fig2">Figure 2 </a> also illustrates that there is a dependency between the IGs and the FHIR resources defined by HL7.
 
-<a href="https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021" target="_blank">You can read more about the work of HL7-DK here</a>.
+<a href="https://hl7.dk/" target="_blank">You can read more about the work of HL7-DK here</a>.

@@ -10,7 +10,7 @@ Semantic versioning includes three numbers, which are separated by a dot, e.g. 2
 * MINOR version changed when you add functionality in a backwards compatible manner
 * PATCH version changed when you make backwards compatible bug fixes
 
-The major and minor versions are  recorded  in  <a href="https://sundhedsdatastyrelsen.dk/da/rammer-og-retningslinjer/om-referencearkitektur-og-standarder/udvalg" target="_blank">Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA)</a>.
+The major and minor versions are  recorded  in  <a href="https://sundhedsdatastyrelsen.dk/digitale-loesninger/referencearkitektur-og-standarder/udvalg" target="_blank">Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA)</a>.
 RUSA is a Danish advisory committee for standards and architecture. RUSA is working to ensure coherence and interoperability in digital solutions in the healthcare field.
 If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and therefore not ready for implementation. In this Standard Operating Procedure (SOP) 4.1 you can read more about the use of semantic versioning in MedCom and what it means for changes in the FHIR standards.
 <a href="https://svn.medcom.dk/svn/qms/Offentlig/SOPer/" target="_blank">Click here to read SOP-4.1.</a>
@@ -19,7 +19,7 @@ If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and 
 ### Terminology versioning
 {: #terminology-versioning}
 
-The MedCom Terminology IG and its individual CodeSystems, ValueSets, and ConceptMaps have independent versions. The terminology-specific rules, including how changes affect standards that use the terminology, are maintained in [Terminology governance](https://medcomfhir.dk/ig/terminology/terminology-governance.html#medcom-fhir-terminology-versioning).
+The MedCom Terminology IG and its individual CodeSystems, ValueSets, and ConceptMaps have independent versions. The terminology-specific rules, including how changes affect standards that use the terminology, are maintained in [Terminology governance](https://medcomfhir.dk/ig/terminology).
 
 ## Change requests and improvements
 {: #change-requests-and-improvements}

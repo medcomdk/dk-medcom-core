@@ -14,12 +14,41 @@ The status refers to the current state of the encounter. This will most often ch
 
 The class describes in which setting the encounter took place. A setting of the encounter can be 'emergency', 'ambulant' or 'inpatient'.
 
-#### EpisodeOfCare identifier
+#### EpisodeOfCare identifiers
+{: #episode-of-care-identifiers}
 
-The element Encounter.episodeOfCare may be included in MedComCoreEncounter. 
+Encounter.episodeOfCare links encounters and messages concerning the same admission or contact. It can carry an LPR3 identifier from the [Danish National Patient Registry](https://www.esundhed.dk/Registre/Landspatientregisteret), a locally defined identifier, or both.
 
-The EpisodeOfCare identifier is used to technically connect several encounters concern the same meeting between a patient and one or more healthcare providers.
+The LPR3 slice uses the [LPR3 Identifier profile](StructureDefinition-lpr3-Identifier.html), which enforces its system and UUIDv5 requirements. A locally defined identifier **SHALL** be a UUID written with hyphens, as in the example below. Identifier cardinalities and the system/value requirements are defined in the snapshot.
 
-It is both possible to use a [Landspatientregisteret](https://www.esundhed.dk/Registre/Landspatientregisteret)-identifier (called LPR3-identifier) and a locally defined identifier as the EpisodeOfCare-identifier. 
+##### Use in messaging flows
+{: #episode-of-care-in-messaging-flows}
 
-Whether an LPR3-identifier or a locally defined identifier is used, it **SHALL** be an UUID. The LPR3-identifier **SHALL** obey a rule stating that the UUID **SHALL** be of version 5, [here more information about the LPR3-identifier can be found](https://scandihealth.github.io/lpr3-docs/). Using a locally defined identifier, a system for the identifier **SHALL** be added. 
+These exchange requirements apply when using Encounter.episodeOfCare in MedCom FHIR messaging. They govern behavior across messages and are not enforced by validating a single Encounter.
+
+* When a message includes an episode of care identifier, the following messages in the same flow **SHALL** return it. Examples include ReportOfAdmission, ProgressOfCarePlan, HospitalNotification, and CareCommunication. An initial CareCommunication concerning an admission can include its episode of care identifier.
+* If the initial message contains one identifier, whether locally defined or LPR3, subsequent messages **SHALL** return that identifier. Identifiers added later **SHOULD** be returned where possible and can otherwise be ignored.
+* If the initial message contains several identifiers, subsequent messages **SHALL** return the locally defined UUID for the admission/contact. The other identifiers **SHOULD** be returned where possible and can otherwise be ignored.
+
+##### Locally defined identifier system
+{: #system-for-locally-defined-episode-of-care-identifiers}
+
+The identifier system distinguishes locally defined identifiers from LPR3 identifiers. Use an additional Encounter.episodeOfCare entry with its identifier.system to distinguish a locally defined identifier; the profile's open slicing permits these entries. Slicing is defined in a profile, rather than created in each instance.
+
+It is recommended to use the organization's SOR endpoint as the local identifier system, consistent with MessageHeader.source.endpoint in messaging.
+
+```xml
+<episodeOfCare>
+  <identifier>
+    <system value="https://sor2.sum.dsdn.dk/#id=265161000016000"/>
+    <value value="bd481c38-a921-11ed-afa1-0242ac120002"/>
+  </identifier>
+</episodeOfCare>
+```
+
+##### OIOXML and EDIFACT interoperability
+{: #episode-of-care-oioxml-and-edifact}
+
+The use of episode of care identifiers in OIOXML and EDIFACT is described in the [municipality and hospital message-flow document (Danish PDF)](http://svn.medcom.dk/svn/releases/Standarder/National%20Sygehus-Kommunesamarbejde/1.0.3/Bilag/Flow%20hjemmepleje-sygehus.pdf).
+
+FHIR episode of care UUIDs **SHALL** retain their hyphens. In OIOXML/EDIFACT, the UUID **SHALL** be written without hyphens because of the legacy technical limitation. Systems are responsible for recognizing and correlating these representations of the same identifier.

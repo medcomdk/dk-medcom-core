@@ -32,11 +32,8 @@ menu:
   Extensions: extensions.html
   Artifacts: artifacts.html
   More:
-    Table of Contents: toc.html
     Downloads: downloads.html
     Dependencies: dependencies.html
-  External Links:
-    Terminology governance: https://medcomfhir.dk/ig/terminology/terminology-governance.html
 
 parameters:
   path-history: history.html

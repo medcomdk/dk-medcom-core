@@ -92,7 +92,7 @@ Narratives contain two sub elements, text.status and text.div.
 ##### The status element
 {: #the-status-element}
 
-In MedCom FHIR resources the text.status element **SHALL** always use the code "generated" or "extension". The status "generated" **SHALL** be used when the resource contains only standard, generated content. The status "extension" **SHALL** be used when the resource includes additional elements provided through extensions.
+In MedCom FHIR resources the text.status element **SHALL** always use the code "generated" or "extensions". The status "generated" **SHALL** be used when the resource contains only generated content. The status "extensions" **SHALL** be used when the resource includes additional elements provided through extensions.
 
 A narrative in MedCom FHIR resources **SHALL NEVER** be of code: empty.
 

@@ -40,23 +40,9 @@ Vendors **SHALL** maintain logs for troubleshooting.
 
 
 ## FHIR Messaging - Validation Governance
-{: #fhir-messaging---validation-governance}
+{: #fhir-messaging-validation-governance}
 
-This governance applies specifically to MedCom FHIR Messaging and aligns with MedCom’s general principles for [Reliable Messaging](https://medcomfhir.dk/ig/messaging/reliable-messaging.html).
-
-
-### Sender-side validation
-{: #sender-side-validation}
-
-* The sender **SHALL** provide valid outgoing FHIR messages according to the relevant FHIR Implementation Guide(s) (IG) before transmission. This includes Acknowledgements.
-* Messages with validation errors **SHALL NOT** be sent unless explicitly approved by the responsible authority within the sending organization.
-
-### Receiver-side validation
-{: #receiver-side-validation}
-
-* The receiver **SHALL** ensure the validity of the received incoming messages according to the relevant FHIR Implementation Guide(s) (IG) before further processing.
-* Receivers **SHALL** accept non-critical warnings but **SHALL** reject messages that violate mandatory constraints and rules.
-* The sender **SHALL** ensure the validity of the received incoming acknowledgements and ensure that they correctly reference the original message. If an Acknowledgement is not valid, the receiver **SHALL** contact the sending system through alternative communication channels to inform them that their acknowledgement messages are not conformant.
+Please see [MedCom Messaging IG](https://medcomfhir.dk/ig/messaging/validation-governance.html).
 
 ## FHIR Documents - Validation Governance
 {: #fhir-documents---validation-governance}
