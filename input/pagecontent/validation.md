@@ -64,7 +64,7 @@ The existing infrastructure does not perform FHIR validation today. Until the in
 
 * The document consumer **SHALL** ensure the validity of the received document according to the relevant FHIR Implementation Guide(s) (IG) prior to presenting it to the user.
 * The document consumer **SHOULD**, as far as possible, display documents that contain validation errors. In such cases, the document consumer **SHALL** present a disclaimer indicating that the document contains error(s). The document consumer **MAY** present a clear, user-friendly explanation of the document’s contained error(s) understandable to non-technical users.
-* If the document cannot be processed, the document consumer **MUST** provide an error message to the user. The document consumer **MAY** still display the narrative content to ensure that essential clinical information remains accessible to the user if possible.
+* If the document cannot be processed, the document consumer **SHALL** provide an error message to the user. The document consumer **MAY** still display the narrative content to ensure that essential clinical information remains accessible to the user if possible.
 * If identifiable, the relevant document source organization **SHALL** be notified, and MedCom **MAY** be notified.
 
 ### Transition to future FHIR-based infrastructure

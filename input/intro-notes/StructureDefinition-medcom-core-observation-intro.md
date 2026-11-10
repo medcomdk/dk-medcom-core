@@ -7,7 +7,7 @@ It is intended to represent observations for a variety cases including for examp
 * EKG study data
 
 #### Status
-The MedComCoreObservation resource require an indication of the observation status. To indicate the observation status, a code from this valueSet defined by MedCom **MUST** be used. <a href="http://medcomfhir.dk/ig/terminology/ValueSet-medcom-core-observation-status.html"> Click here se the status codes.</a> 
+The MedComCoreObservation resource require an indication of the observation status. To indicate the observation status, a code from this valueSet defined by MedCom **SHALL** be used. <a href="http://medcomfhir.dk/ig/terminology/ValueSet-medcom-core-observation-status.html"> Click here se the status codes.</a> 
 
 #### Codes
 In an Observation resource, codes from CodeSystems are used to describe what is observed in the elements Observation.code.coding. In the element Observation.code.coding six possible CodeSystem are specified.

@@ -7,8 +7,6 @@
 ### Narrative Texts
 {: #narrative-texts}
 
-> **Review required:** This alternative applies only to profiles without Obligations. Its shared XHTML/status rules overlap general governance; retain the transition until affected profile versions have been reviewed. The “extensions” spelling also conflicts with “extension”. [Original section](https://medcomdk.github.io/MedComLandingPage/assets/documents/MSnarrativeGovernance.html#1-narrative-texts).
-
 **OBS:** MedCom is currently transitioning between two approaches for defining narrative text in its profiles. If a profile has not yet implemented Obligations, the governance on this page must be followed. If a profile includes Obligations, use the governance described on [this page instead](general-governance.html).
 
 The narrative text contains sufficient detail to make it "clinically safe" for a human to just read the narrative.
@@ -22,7 +20,7 @@ Narratives contain two sub elements, status and div.
 #### The status element
 {: #the-status-element}
 
-In MedCom FHIR Messages the status **SHALL** always be "generated" meaning that the narrative is generated from elements with ∑-symbol and MustSupport, or "extension" meaning that in addition to "generated", it is including extensions.
+In MedCom FHIR Messages the status **SHALL** always be "generated" meaning that the narrative is generated from elements with ∑-symbol and MustSupport, or "extensions" meaning that in addition to "generated", it is including extensions.
 
 A narrative in MedCom FHIR Messages **SHALL NEVER** be of code: empty.
 

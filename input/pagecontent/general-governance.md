@@ -20,10 +20,10 @@ MedCom adopts the normative words defined in IETF Best Current Practice 14: Key 
 
 This specification uses the conformance verbs SHALL, SHOULD, and MAY as defined in RFC 2119. Unlike RFC 2119, however, this specification allows that different applications might not be able to interoperate because of how they use optional features. In particular:
 
-* **SHALL**: (or “REQUIRED” or “MUST”) an absolute requirement for all implementations
-* **SHALL NOT**: (or "MUST NOT") an absolute prohibition against inclusion for all implementations
-* **SHOULD/SHOULD NOT**: (or “RECOMMENDED”/“NOT RECOMMENDED”) A best practice or recommendation to be considered by implementers within the context of their particular implementation; there may be valid reasons to ignore an item, but the full implications must be understood and carefully weighed before choosing a different course
-* **MAY**: (or "OPTIONAL") This is truly optional language for an implementation; can be included or omitted as the implementer decides with no implications
+* **SHALL**: an absolute requirement for all implementations
+* **SHALL NOT**: an absolute prohibition against inclusion for all implementations
+* **SHOULD/SHOULD NOT**: A best practice or recommendation to be considered by implementers within the context of their particular implementation; there may be valid reasons to ignore an item, but the full implications must be understood and carefully weighed before choosing a different course
+* **MAY**: This is truly optional language for an implementation; can be included or omitted as the implementer decides with no implications
 
 This convention is in compliance with HL7 FHIR use of the terms, which is described by <a href="http://www.hl7.org/fhir/conformance-rules.html#conflang" target="_blank">HL7 FHIR under conformance language</a>.
 
@@ -41,28 +41,28 @@ Labeling an element MustSupport ('S' red marking) means that implementations tha
 
 #### Systems receiving or consuming a resource instance:
 
-**MUST** be able to process the field’s content when it is present.
-**MUST** process the content according to the rules defined for the profile.
-**MUST NOT** fail when the value is not present.
+**SHALL** be able to process the field’s content when it is present.
+**SHALL** process the content according to the rules defined for the profile.
+**SHALL NOT** fail when the value is not present.
 
 #### Systems sending or creating a resource instance:
 
 **SHOULD** populate the element when the information is available.
-**MUST** populate the element according to the rules defined for the profile.
+**SHALL** populate the element according to the rules defined for the profile.
 
 #### For Logical Models:
 
-Functional Analysis **MUST** consider the data element as defined.
+Functional Analysis **SHALL** consider the data element as defined.
 
-“Must Support” elements that are used in an implementation **MUST** inherit the behaviour and constraints defined for the data element.
-“Must Support” elements not needed in a particular implementation **MAY** be excluded from implementation but such exclusion **MUST** be described.
+“Must Support” elements that are used in an implementation **SHALL** inherit the behaviour and constraints defined for the data element.
+“Must Support” elements not needed in a particular implementation **MAY** be excluded from implementation but such exclusion **SHALL** be described.
 Derived implementations **SHOULD** inherit the field’s “Must Support” flag.
 
 #### MustSupport Links
 {: #mustsupport-links}
 
-| Links for MustSupport|
-|:---|
+| Links for MustSupport                                                                                                                       |
+| :------------------------------------------------------------------------------------------------------------------------------------------ |
 | <a href="https://www.hl7.org/FHIR/conformance-rules.html#mustSupport" target="_blank">Detailed specification for MustSupport in FHIR R4</a> |
 
 ## Implementation Requirements for Narrative Texts
@@ -120,11 +120,11 @@ If a resource includes a base-64-encoded attachment, this **SHALL NOT** be inclu
 #### Links for Narrative Text
 {: #links-for-narrative-text}
 
-|Additional information can be found in the following links for narrative texts in FHIR|
-|:---|
-|<a href="http://hl7.org/fhir/R4/narrative.html#Narrative" target ="_blank">Narrative Text description in FHIR R4</a>|
-|<a href="http://hl7.org/fhir/R4/codesystem-narrative-status.html#4.3.14.424.2" target="_blank">NarrativeStatus in FHIR R4</a>|
-|<a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">Styling the XHTML in FHIR R4</a>|
+| Additional information can be found in the following links for narrative texts in FHIR                                        |
+| :---------------------------------------------------------------------------------------------------------------------------- |
+| <a href="http://hl7.org/fhir/R4/narrative.html#Narrative" target ="_blank">Narrative Text description in FHIR R4</a>          |
+| <a href="http://hl7.org/fhir/R4/codesystem-narrative-status.html#4.3.14.424.2" target="_blank">NarrativeStatus in FHIR R4</a> |
+| <a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">Styling the XHTML in FHIR R4</a>                         |
 
 #### Implementing Narrative Text
 {: #implementing-narrative-text}
