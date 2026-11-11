@@ -1,41 +1,22 @@
-### Introduction
+## Introduction
 
-This Implementation Guide (IG) is provided by MedCom to describe MedCom's FHIR &reg;&copy; Core profiles (Dansk: Kerneprofiler) used across MedComs standards. This IG represents the base expectation when describing fx a Patient, an Encounter, a Practitioner or an Organization when exchanging information within the Danish healthcare system.
-As the MedComCore profiles only specify the base expectations, they are in general made open for additional adjustments. This is chosen to allow further profiling for specific purposes defined by the communicating parties.
+This Implementation Guide (IG) contains various Core (essential) profiles used across most, if not all, MedCom FHIR standards/IGs'. These profiles can be found in the [Profiles](profiles.html) menu.
+Furthermore this IG also defines the shared requirements for MustSupport, narratives, validation, testing, and versioning. The [Terminology IG](https://medcomfhir.dk/ig/terminology/) owns the terminology governance including independent terminology versions and lifecycle dates.
 
-The purpose of this IG is to:
-* Define MedCom Core profiles that constraints the FHIR resources and datatypes for use in MedCom standards. See all MedComCore profiles in the "Profiles" tab in the menu.
+**XML and JSON:** Note that the instances/examples of the profiles are represented in either XML or JSON (sometimes even TTL). Their character encoding will change according to the data format, but they remain the same instance.
 
-* Define extensions necessary for local use covering needed Danish concepts, such as a personal identification number for Danish citizens called Central Person Register (CPR-number).
+### A note on DK-core
+This IG has a dependency to [DK-core](https://hl7.dk/fhir/core/), defined by [HL7 Denmark](https://hl7.dk/). You will see this reflected in many of the MedCom profiles. Both IG's define core profiles but on different levels. While DK-Core should be used in every single FHIR IG in Denmark, MedCom Core is only meant for MedCom IG's.
 
-The MedCom Core profiles only constitute a part of a standard. To exchange a complete MedCom standard, profiles from the other Implementation Guides is used.
+### A note on Messaging
+At the time of writing, most FHIR IGs' in Denmark are Messaging based exchanges. And for that specific transport protocol there is the [MedCom Messaging IG](https://medcomfhir.dk/ig/messaging/index.html) IG which defines the additional governance and transport requirements for messaging-based exchange.
 
-**XML and JSON:** Note that the instances of the profiles may be represented in either XML or JSON and interconverted between these or have its character encoding changed, all the while remaining the same instance. 
+### Quality Assurance Report
+For every IG there is a QA report. It is meant for IG maintainers and not for IG implementers.
 
-#### Terminology
-On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
-
-#### Dependencies
-This IG has a dependency to [DK-core](https://hl7.dk/fhir/core/), defined by [HL7 Denmark](https://hl7.dk/). This is currently reflected in the profiles that inherit from DkCore profiles.
-
-### Documentation
-[More information about MedCom Core](https://medcomdk.github.io/dk-medcom-core/) can be found here. As mentioned, MedCom Core does not alone constitute a standard, why the documentation is limited.
-
-### Governance and guidance
-FHIR profiles are managed under MedCom: [Source code](https://github.com/medcomdk/dk-medcom-core). 
-
-A description of governance and guidance for MedCom's FHIR standards, can be found on the [MedCom Landing Page](https://medcomdk.github.io/MedComLandingPage).
-
-The MedCom FHIR landing page provides a overview of governance requirements that apply to MedCom’s FHIR standards. This includes fx the mandatory rules for interpreting MustSupport, the formal validation requirements that implementers must follow, the expectations for producing narrative texts and governance for how MedCom Terminology is versioned.
-
-The landing page also offers help to developers to understand how to work with MedCom’s FHIR standards. This includes a guide of how to read an Implementation Guide. Users will also find instructions on how to use some of the FHIR tools, such as validation setup.
-
-#### Quality Assurance Report
-
-In the Quality Assurance report (QA-report) for this IG, there is an error with the following description: *Reference is remote which isn’t supported by the specified aggregation mode(s) for the reference (bundled)*. The error occurs when creating instances of the profiles and is due to some elements having a Bundled flag {b}, however the referenced profile is not included in a Bundle in an instance, since the instance only represents a part of the entire message. This should not influence the implementation by IT-vendors.
-
-### Contact 
-
-[MedCom](https://www.medcom.dk/) is responsible for this IG.
-
+### FHIR email and Zulip - Places to ask questions
 If you have any questions, please contact <fhir@medcom.dk> or write to MedCom's stream in [Zulip](https://chat.fhir.org/#narrow/stream/315677-denmark.2Fmedcom.2FFHIRimplementationErfaGroup).
+This is true for all of our FHIR IGs'.
+
+### Looking for a specific standard?
+Please visit [medcomfhir.dk](https://medcomfhir.dk/ig)
