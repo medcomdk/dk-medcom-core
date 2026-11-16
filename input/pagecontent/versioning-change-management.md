@@ -21,9 +21,17 @@ If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and 
 
 The MedCom Terminology IG and its individual CodeSystems, ValueSets, and ConceptMaps have independent versions. The terminology-specific rules, including how changes affect standards that use the terminology, are maintained in [Terminology governance](https://medcomfhir.dk/ig/terminology).
 
+## Handling multiple versions
+{: #handling-multiple-versions}
+
+Vendors **SHOULD** be prepared to handle multiple versions of a MedCom FHIR standard.
+The version of the standard is not explicitly stated in a Bundle.
+
+When receiving a MedCom FHIR Bundle, it **SHOULD** be validated against the rules and constraints defined in the associated Implementation guide of the same version. With breaking changes, MedCom will provide specific guidelines for the scenario.
+
 ## Change requests and improvements
 {: #change-requests-and-improvements}
-Stakeholders and vendors are alway welcome to submit requests for changes or improvements to the IG or other documentation.
+Stakeholders and vendors are always welcome to submit requests for changes or improvements to the IG or other documentation.
 * If the request concerns the IG, it is possible to:
   1. submit an issue to the relevant <a href="https://github.com/medcomdk" target="_blank">MedCom GitHub repository</a>
   2. write an email to <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a> describing the request
@@ -51,10 +59,4 @@ Here is how you do it:
     <img src="GitHubWatchRelease2.png" alt="Release GH Watch">
    </div>
 
-## Handling multiple versions
-{: #handling-multiple-versions}
 
-Vendors **SHOULD** be prepared to handle multiple versions of a MedCom FHIR standard.
-The version of the standard is not explicitly stated in a Bundle.
-
-When receiving a MedCom FHIR Bundle, it **SHOULD** be validated against the rules and constraints defined in the associated Implementation guide of the same version. With breaking changes, MedCom will provide specific guidelines for the scenario.

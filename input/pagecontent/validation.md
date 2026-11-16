@@ -49,12 +49,12 @@ Please see [MedCom Messaging IG](https://medcomfhir.dk/ig/messaging/validation-g
 
 
 This governance applies to MedCom FHIR Documents exchanged through the current national document-sharing infrastructure, which is based on IHE XDS.
-The existing infrastructure does not perform FHIR validation today. Until the infrastructure is updated to support FHIR-native operations in the future, vendors **SHALL** ensure that all FHIR documents are valid.
+The existing infrastructure does not perform FHIR validation today, therefore **SHALL** vendors ensure that all FHIR documents delivered to the infrastructure are valid.
 
 ### Document source validation
 {: #document-source-validation}
 
-* The document source SHALL provide valid FHIR documents according to the relevant FHIR Implementation Guide(s) (IG) to the national infrastructure.
+* The document source **SHALL** provide valid FHIR documents according to the relevant FHIR Implementation Guide(s) (IG) to the national infrastructure.
 * Documents that are not valid **SHALL NOT** be submitted.
   * In cases where the document source is unable to produce a conformant FHIR document, the document source **SHALL** prevent transmission, **SHALL** log the validation failure, **SHALL** perform internal escalation and troubleshooting, and can seek guidance from MedCom if the issue cannot be resolved locally.
   * On-demand documents: If the document source is unable to produce a conformant document, the document source **SHALL** return an error response. In the current IHE XDS-based infrastructure, the document source **SHALL** return an IHE-compliant error response structured in accordance with ITI-43 Retrieve Document Set (IHE ITI Technical Framework, Volume 3).
