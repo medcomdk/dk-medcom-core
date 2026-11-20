@@ -30,7 +30,7 @@ This convention is in compliance with HL7 FHIR use of the terms, which is descri
 ## MedCom FHIR standards
 {: #medcom-fhir-standards}
 
-An implementer of a MedCom FHIR  Standard **SHALL** be compliant with all parts of the documentation (both the standard documentation and the relevant governance).
+An implementer of a MedCom FHIR Standard **SHALL** be compliant with all parts of the documentation (both the standard documentation and the relevant governance).
 
 ## MustSupport
 {: #mustsupport}
@@ -43,7 +43,7 @@ Labeling an element MustSupport ('S' red marking) means that implementations tha
 
 **SHALL** be able to process the field’s content when it is present.
 **SHALL** process the content according to the rules defined for the profile.
-**SHALL NOT** fail when the value is not present.
+**SHALL NOT** fail when the value is not present. 
 
 #### Systems sending or creating a resource instance:
 
@@ -68,13 +68,13 @@ Derived implementations **SHOULD** inherit the field’s “Must Support” flag
 ## Implementation Requirements for Narrative Texts
 {: #implementation-requirements-for-narrative-texts}
 
-**OBS:** MedCom is currently transitioning between two approaches for defining narrative text in its profiles. If a profile includes Obligations, the Governance on this page must be followed. If a profile has not yet implemented Obligations, use the governance described on [this page instead](narrative-legacy.html).
+**Note:** MedCom is currently transitioning between two approaches for defining narrative text in its profiles. If a profile includes Obligations, the Governance on this page must be followed. If a profile has not yet implemented Obligations, use the governance described on [this page instead](narrative-legacy.html).
 
 This section is aimed at vendors/implementers and describes the concrete requirements for how to implement and represent narrative text in MedCom FHIR resources.
 
 #### The Importance of Narrative Text in MedCom’s FHIR Standards
 {: #the-importance-of-narrative-text-in-medcoms-fhir-standards}
-In MedCom’s FHIR standards, it is required that all FHIR resources include a narrative text. The narrative serves an essential purpose: It ensures that the clinical or administrative content of the resource can be understood by healthcare professionals without the need for specialized technical tools. While the structured elements of a FHIR resource are designed for system-to-system communication, the narrative provides a human-readable summary that makes the information accessible to human interpretation in a simple XHTML view.
+In MedCom’s FHIR standards, all FHIR resources (except Bundles) **SHALL** include a narrative text. The narrative serves an essential purpose: It ensures that the clinical or administrative content of the resource can be understood by healthcare professionals without the need for specialized technical tools. While the structured elements of a FHIR resource are designed for system-to-system communication, the narrative provides a human-readable summary that makes the information accessible to human interpretation in a simple XHTML view.
 
 The narrative text plays a critical role in supporting robustness and patient safety across the healthcare system. First, it allows the content of a message to be read even if the recipient system fails to process the structured data. Second, when narrative text is displayed across multiple versions of a standard, it increases patient safety by ensuring that as much information as possible remains visible, and it enables healthcare professionals to review historical messages in the future. Third, it makes additional elements beyond those defined in the MedCom standard transparent, since FHIR allows resources to include more data than the standard strictly requires. Fourth, including a narrative is considered best practice in FHIR and aligns MedCom’s work with international recommendations. Finally, the presence of a narrative ensures that even if a system receives a FHIR Bundle it is not fully equipped to handle, the content can still be displayed and understood when necessary.
 
@@ -94,12 +94,12 @@ Narratives contain two sub elements, text.status and text.div.
 
 In MedCom FHIR resources the text.status element **SHALL** always use the code "generated" or "extensions". The status "generated" **SHALL** be used when the resource contains only generated content. The status "extensions" **SHALL** be used when the resource includes additional elements provided through extensions.
 
-A narrative in MedCom FHIR resources **SHALL NEVER** be of code: empty.
+A narrative in MedCom FHIR resources **SHALL NOT** be of code: empty.
 
 ##### The div element
 {: #the-div-element}
 
-The contents of the text.div element are XHTML fragments that **SHALL** contain only the basic HTML formatting elements described in chapters 7-11 (except section 4 of chapter 9) and 15 of the HTML 4.0 standard, &lt;a&gt; elements (either name or href), images and internally contained style attributes.
+The contents of the text.div element are XHTML fragments that **SHALL** contain only the basic HTML formatting elements described in chapters 7-11 (except section 4 of chapter 9) and 15 of the [HTML 4.0 standard](https://www.w3.org/TR/html401/), &lt;a&gt; elements (either name or href), images and internally contained style attributes.
 
 The XHTML content **SHALL NOT** contain a head, a body element, external stylesheet references, deprecated elements, scripts, forms, base/link/xlink, frames, iframes, objects or event related attributes (e.g. onClick).
 
@@ -108,7 +108,7 @@ If a resource includes a base-64-encoded attachment, this **SHALL NOT** be inclu
 ##### General Narrative Text Rules
 {: #general-narrative-text-rules}
 
-* All resources **SHALL** contain a narrative text defined by the `[resource].text` element (Except Bundles) that includes narratives for all elements marked with the Obligation code `O`.
+* All resources **SHALL** contain a narrative text defined by the `[resource].text` element (except Bundles) that includes narratives for all elements marked with the Obligation code `O`.
 * The Narrative Text **SHALL** have a status with value "generated" or "extensions".
 * The Narrative Text **SHALL** include the ID for each resource (Resource.id).
 * The Narrative Text **SHALL** include references to other resources as the ID for each resource (Resource.id).

@@ -10,7 +10,7 @@ Profile: MedComAssignedIdentifier
 Parent: Identifier
 Id: medcom-assigned-identifier
 Title: "AssignedIdentifier"
-Description: "An UUID identifier assigned by an organisation"
+Description: "An UUID identifier assigned by an organization"
 * value 1..
   * ^short = "The value is a UUID identifier version 4." 
   * obeys medcom-uuidv4

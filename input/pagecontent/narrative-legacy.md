@@ -7,7 +7,7 @@
 ### Narrative Texts
 {: #narrative-texts}
 
-**OBS:** MedCom is currently transitioning between two approaches for defining narrative text in its profiles. If a profile has not yet implemented Obligations, the governance on this page must be followed. If a profile includes Obligations, use the governance described on [this page instead](general-governance.html).
+**Note:** MedCom is currently transitioning between two approaches for defining narrative text in its profiles. If a profile has not yet implemented Obligations, the governance on this page must be followed. If a profile includes Obligations, use the governance described on [this page instead](general-governance.html).
 
 The narrative text contains sufficient detail to make it "clinically safe" for a human to just read the narrative.
 
