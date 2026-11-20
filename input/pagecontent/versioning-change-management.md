@@ -5,13 +5,14 @@
 {: #versioning-of-medcom-fhir-standards}
 MedComs FHIR standards follow the <a href="https://semver.org/" target="_blank">semantic versioning, version 2.0</a>, which is adjusted to the workflow in MedCom. Some documents, such as use cases or test protocols, will have an individual version and a release note, to keep track of the changes in the document. The IG will have one version that covers all the included artefacts. Versioning of the clinical guidelines, use cases, test material, and more will follow the major and minor version of the technical specifications in the IG, but may have a patch version that is different from the IG’s patch-version.
 
-Semantic versioning includes three numbers, which are separated by a dot, e.g. 2.1.4. The numbers are called <i>major.minor.patch</i>,which represent different degrees of changes:
+Semantic versioning includes three numbers, which are separated by a dot, e.g. 2.1.4. The numbers are called <i>major.minor.patch</i>, which represent different degrees of changes:
 * MAJOR version changes when you make incompatible API changes
 * MINOR version changed when you add functionality in a backwards compatible manner
 * PATCH version changed when you make backwards compatible bug fixes
 
 The major and minor versions are  recorded  in  <a href="https://sundhedsdatastyrelsen.dk/digitale-loesninger/referencearkitektur-og-standarder/udvalg" target="_blank">Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA)</a>.
 RUSA is a Danish advisory committee for standards and architecture. RUSA is working to ensure coherence and interoperability in digital solutions in the healthcare field.
+
 If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and therefore not ready for implementation. In this Standard Operating Procedure (SOP) 4.1 you can read more about the use of semantic versioning in MedCom and what it means for changes in the FHIR standards.
 <a href="https://svn.medcom.dk/svn/qms/Offentlig/SOPer/" target="_blank">Click here to read SOP-4.1.</a>
 

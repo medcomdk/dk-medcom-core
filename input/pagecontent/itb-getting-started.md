@@ -11,11 +11,11 @@ The test tool 'Interoperability Test Bed' (ITB), is used to perform tests of Med
     Go to <a href="https://test.itb.medcom.dk/" target="_blank">ITB Login</a>
   </li>
   <li>
-    Check within your organization whether or not your organization has been created for this MedCom Community in ITB.
+    Check within your organisation whether or not your organisation has been created for this MedCom Community in ITB.
     
-    If your organization has <strong>already been registered</strong>, please <strong>contact your local admin</strong> to make them create a user for you. Login with your credentials and skip the rest of these steps.
+    If your organisation has <strong>already been registered</strong>, please <strong>contact your local admin</strong> to make them create a user for you. Login with your credentials and skip the rest of these steps.
     
-    If your organization has <strong>not been registered</strong>, you must <strong>contact MedCom</strong> at <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a>. MedCom will create an organisation and an associated organisation administration user, who can then create organisation users. In the email, please provide: <strong>Organization name</strong>, <strong>system name</strong>, <strong>administrator name</strong>, and <strong>administrator e-mail</strong>.
+    If your organisation has <strong>not been registered</strong>, you must <strong>contact MedCom</strong> at <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a>. MedCom will create an organisation and an associated organisation administration user, who can then create organisation users. In the email, please provide: <strong>organisation name</strong>, <strong>system name</strong>, <strong>administrator name</strong>, and <strong>administrator e-mail</strong>.
    </li>
 
 </ol>
@@ -24,7 +24,7 @@ The test tool 'Interoperability Test Bed' (ITB), is used to perform tests of Med
 {: #create-users}
 <ol>
   <li>
-    As administrator you can now create users for people in your organization that needs to test using the ITB. Create them under "My organization" found in the lefthand navigation menu, click "Users" and fill in the information.
+    As administrator you can now create users for people in your organisation that needs to test using the ITB. Create them under "My organisation" found in the lefthand navigation menu, click "Users" and fill in the information.
     <div>
     <img src="ITBCreateUser.png" alt="ITB Create User">
     </div>
@@ -37,7 +37,7 @@ The test tool 'Interoperability Test Bed' (ITB), is used to perform tests of Med
   <li>
     As adminstrator you can also create the system(s) that represents your software that is being tested in the ITB.
     
-    Example: Let's say our organization is Microsoft, then we might have many systems such as Outlook, Word, PowerPoint etc.
+    Example: Let's say our organisation is Microsoft, then we might have many systems such as Outlook, Word, PowerPoint etc.
     <div>
       <img src="ITBCreateSystem.png" alt="ITB Create System">
     </div>
@@ -116,5 +116,5 @@ The test tool 'Interoperability Test Bed' (ITB), is used to perform tests of Med
 
 ## Need help?
 {: #need-help}
-Help to set up organization and system, getting through a test case or something similar? Please write to fhir@medcom.dk
+Help to set up organisation and system, getting through a test case or something similar? Please write to fhir@medcom.dk
 If you need help getting through a test case, it is very helpful if you send the link to the test execution you are struggling with, please click "Copy link" and send it to MedCom.
